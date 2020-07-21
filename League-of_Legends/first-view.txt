@@ -1,0 +1,994 @@
+The size of DataFrame is:(7582, 57)
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+ The total of NA per column is: 
+
+League              0
+Year                0
+Season              0
+Type                0
+blueTeamTag         0
+bResult             0
+rResult             0
+redTeamTag          0
+gamelength          0
+golddiff            0
+goldblue            0
+bKills              0
+bTowers             0
+bInhibs             0
+bDragons            0
+bBarons             0
+bHeralds            0
+goldred             0
+rKills              0
+rTowers             0
+rInhibs             0
+rDragons            0
+rBarons             0
+rHeralds            0
+blueTop             0
+blueTopChamp        0
+goldblueTop         0
+blueJungle          0
+blueJungleChamp     0
+goldblueJungle      0
+blueMiddle          0
+blueMiddleChamp     0
+goldblueMiddle      0
+blueADC             0
+blueADCChamp        0
+goldblueADC         0
+blueSupport         0
+blueSupportChamp    0
+goldblueSupport     0
+blueBans            0
+redTop              0
+redTopChamp         0
+goldredTop          0
+redJungle           0
+redJungleChamp      0
+goldredJungle       0
+redMiddle           0
+redMiddleChamp      0
+goldredMiddle       0
+redADC              0
+redADCChamp         0
+goldredADC          0
+redSupport          0
+redSupportChamp     0
+goldredSupport      0
+redBans             0
+Address             0
+dtype: int64 
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+***************The value_counts per column*****************
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+LCK      1445
+NALCS    1272
+EULCS    1099
+LMS       777
+TCL       653
+OPL       458
+WC        308
+CBLoL     301
+LCL       281
+LLN       242
+LJL       221
+CLS       175
+IEM       138
+MSI       111
+RR        101
+Name: League, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+2017    3311
+2016    2457
+2015    1495
+2018     241
+2014      78
+Name: Year, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Summer    4071
+Spring    3511
+Name: Season, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Season           5615
+Playoffs          775
+International     658
+Promotion         391
+Regional          143
+Name: Type, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+SKT     195
+SSG     167
+kt      163
+CLG     154
+C9      153
+       ... 
+INTZ      1
+TLA       1
+FH        1
+SPA       1
+MC        1
+Name: blueTeamTag, Length: 242, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+1    4127
+0    3455
+Name: bResult, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+0    4127
+1    3455
+Name: rResult, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+SKT     208
+TSM     172
+SSG     155
+C9      152
+JAG     150
+       ... 
+NTR       1
+MSK       1
+Crew      1
+100       1
+SPA       1
+Name: redTeamTag, Length: 243, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+34    434
+35    405
+32    397
+33    389
+31    383
+     ... 
+75      1
+74      1
+78      1
+19      1
+95      1
+Name: gamelength, Length: 62, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[0, 0, -44, -18, -117, 105, 34, -127, 417, 19, 614, -33, -235, 493, 266, 817, 753, 565, 439, 829, 814, 998, 1659, 2074, 1940, 3040, 3882, 3598, 4239, 5421, 5825, 5786, 6500, 6780, 6741, 7134, 9093, 9715, 10086, 11281, 10751, 10938]                                                                                        1
+[0, 0, 21, -85, -203, -167, -798, -784, -205, 100, 182, 286, 358, 714, 923, -99, -235, -903, -955, -878, -1145, -439, -271, -164, -458, -328, -27, 31, 2110, 4280, 4743, 5446, 5372, 5580, 5959, 6429, 6601, 5709, 5503, 7905, 8825, 9643, 9743, 9745, 11750]                                                                  1
+[0, 0, 5, -74, 765, 148, -764, -1403, -1564, -718, -1131, -776, -494, -30, 964, 553, -2059, -2522, -2995, -3039, -2872, -2781, -3203, -2163, -2437, -2387, -4396, -4986, -5047, -4902, -6714, -6364, -6203, -6882, -6883, -7395, -7387, -6960, -6181, -4117, -4015, -4457, -5189, -5472, -6009, -7221, -8985, -8330, -9946]    1
+[0, 0, 42, 6, 270, 117, 445, 364, 1294, 1094, 1304, 2324, 2562, 3103, 4184, 4234, 3740, 3892, 4738, 4289, 4899, 5498, 5604, 9313, 9717, 8819, 10712, 12263, 14426]                                                                                                                                                             1
+[0, 0, -9, -62, -659, -346, -426, -259, -283, -379, -1374, -1486, -4390, -3334, -3986, -4933, -5052, -7399, -7170, -7501, -8024, -7701, -8197, -8755, -8637, -9129, -8215, -7928, -10669, -12141, -13922, -17132, -17279, -17345, -16119, -16548]                                                                              1
+                                                                                                                                                                                                                                                                                                                              ..
+[0, 0, 17, 105, 384, 255, -120, 48, -151, -569, -775, -1065, -1330, -1040, -1151, -986, -1151, -978, -1265, -1300, -1449, -2788, -2782, -3505, -4658, -6200, -5488, -4289, -4458, -4785, -4643, -4916, -4858, -5076, -9680, -11199, -13316]                                                                                    1
+[40, 40, 45, -55, -94, -125, -4, -29, -222, -254, -1000, -2439, -2421, -2089, -2735, -3249, -2452, -2914, -2909, -2285, -4380, -3938, -4322, -7012, -7639, -9841, -10514, -10694, -11750, -11912, -11600, -14055]                                                                                                              1
+[0, 0, -3, -13, -195, -115, 163, 114, -498, -431, -463, -260, 371, 590, 363, 441, 119, 2087, 1951, 3587, 6208, 5898, 6196, 6811, 9981, 12131]                                                                                                                                                                                  1
+[0, 0, -37, 49, -162, -395, 268, 636, 1354, 1148, 1434, 1350, 1344, 1667, 1833, 1908, 2210, 1263, 337, 48, -213, -1045, -304, -227, 409, -1815, -1117, -590, -373, 1577, 1796, 1840, 3172, 3748, 3852, 3354, 5450]                                                                                                             1
+[0, -10, -6, -211, -189, -393, -717, -443, -612, -597, -1147, -1218, -986, -1383, -202, -258, -93, 236, 1100, 696, -435, 579, 352, 158, -777, -1752, -1646, -1568, -2497, -2855, -3475, -4184, -4894, -4723, -4210, -1458, -162, -686, -1001, -1403, -1652, -1197, -2627, 328]                                                 1
+Name: golddiff, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[2500, 2500, 2656, 3960, 5288, 6767, 8236, 9387, 10482, 12084, 13377, 14847, 16532, 17618, 20151, 22446, 23621, 25302, 26705, 28051, 29209, 31056, 32392, 34914, 36876, 37810, 39459, 40844, 42853, 45107, 46834, 48412, 50088, 51763, 53481, 55365, 56659, 57851]                                                                    1
+[2500, 2500, 2773, 4196, 5709, 7222, 8573, 10112, 11420, 12906, 14391, 16423, 18339, 20082, 21919, 23581, 25479, 26969, 28592, 30473, 33331, 36165, 38266, 41266, 43745, 45517, 47598, 50480, 52605, 54296, 56757, 58610, 60340, 61897, 63745, 67640, 72167, 74865]                                                                   1
+[2500, 2500, 2746, 4343, 5685, 7190, 8559, 9817, 11401, 13088, 14429, 16355, 18074, 19402, 22334, 24279, 27213, 28566, 31462, 33550, 35022, 37275, 38767, 41704, 43897, 45353, 47721, 49551, 53126, 54930, 56845, 58381, 60128, 61907, 63479, 64973, 66856, 68285, 71861]                                                             1
+[2500, 2500, 2743, 4024, 5351, 6777, 8203, 9694, 11033, 12590, 14623, 15602, 16968, 18974, 20323, 21855, 23313, 24569, 25754, 27425, 28553, 31683, 33629, 36687, 39342, 40491, 42298, 43885, 45396, 47261, 48188, 50154, 51696]                                                                                                       1
+[2500, 2500, 3168, 4677, 6593, 7915, 9204, 10857, 12352, 13780, 15209, 16995, 18101, 19491, 21168, 22622, 24942, 26548, 27860, 29784, 31818, 33660, 35241, 36536, 37890, 39093, 40882, 42664, 44312, 45528, 47271, 48615, 50013, 51491, 53173, 55215, 55945, 57237, 58674, 59740, 61411, 63335, 64487, 67176, 68456, 70832, 75201]    1
+                                                                                                                                                                                                                                                                                                                                     ..
+[2500, 2500, 2766, 4127, 6066, 7259, 8592, 9912, 11122, 12835, 14131, 16019, 17329, 19225, 20426, 21750, 23251, 24750, 26123, 28248, 29743, 31887, 34598, 36149, 37324, 39127, 40307, 42915, 46202, 48632, 53121, 54052, 56410, 57695, 59965, 61230, 62965, 64136, 65074, 66568, 68607, 69397]                                        1
+[2415, 2415, 2710, 4112, 5707, 6965, 8201, 10127, 11243, 12654, 14581, 16642, 17812, 20461, 22037, 23404, 24851, 26334, 27940, 30615, 32735, 34402, 37173, 38952, 40667, 42819, 44211, 47015, 50491, 51918, 55438, 57202, 59094, 66019]                                                                                               1
+[2500, 2500, 2690, 4260, 5827, 7013, 8529, 10488, 12179, 13647, 15173, 16665, 18229, 19933, 21743, 23279, 24830, 27673, 29410, 30792, 34328, 35559, 39142, 40467, 42272, 43768, 45515, 47761, 51043, 54468, 58022, 59286, 62011]                                                                                                      1
+[2500, 2500, 2786, 4209, 6848, 7771, 9283, 10487, 12340, 14176, 15512, 17073, 19122, 20520, 22274, 24847, 26575, 28365, 30114, 32332, 34095, 35391, 37680, 39816, 41656, 43532, 46492, 48665, 53495]                                                                                                                                  1
+[2415, 2415, 2705, 4197, 5599, 7016, 8207, 9409, 11516, 12952, 14335, 16096, 17965, 19828, 21372, 22895, 24523, 26098, 27231, 28630, 30988, 32532, 34011, 35759, 36908, 39156, 42310, 44504, 48031, 49720, 53022, 56182, 57532, 58663, 60372, 61652, 65398, 67132, 68233, 69195, 72950]                                               1
+Name: goldblue, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          40
+[[14.093, 'JAG Chaser', 'SSB SaSin', ['SSB Nuclear', 'SSB Secret'], 9847, 2649], [14.357, 'JAG Sweet', 'SSB Catch', ['SSB Soul', 'SSB SaSin', 'SSB Nuclear', 'SSB Secret'], 12606, 3047], [14.405, 'JAG Pilot', 'SSB SaSin', ['SSB Catch', 'SSB Nuclear', 'SSB Secret'], 12576, 2818], [14.528, 'JAG TrAce', 'SSB Nuclear', ['SSB Soul', 'SSB Catch', 'SSB SaSin', 'SSB Secret'], 13079, 4460], [14.683, 'JAG GBM', 'SSB Catch', ['SSB Soul', 'SSB Nuclear', 'SSB Secret'], 12623, 2553], [36.731, 'JAG Sweet', 'SSB Nuclear', ['SSB Soul', 'SSB Secret'], 3603, 7811], [36.823, 'JAG Pilot', 'SSB Nuclear', ['SSB Soul', 'SSB Catch', 'SSB SaSin'], 2830, 8074], [36.907, 'JAG Chaser', 'SSB Nuclear', ['SSB Soul', 'SSB Catch', 'SSB SaSin'], 3419, 7726], [37.524, 'JAG TrAce', 'SSB SaSin', ['SSB Catch', 'SSB Nuclear'], 3452, 8434], [44.72, 'JAG Pilot', 'SSB Soul', ['SSB Catch', 'SSB SaSin', 'SSB Secret'], 7112, 8181], [44.779, 'JAG TrAce', 'SSB SaSin', ['SSB Soul', 'SSB Catch', 'SSB Nuclear', 'SSB Secret'], 7668, 7931], [44.822, 'JAG GBM', 'SSB Nuclear', ['SSB Soul', 'SSB Catch', 'SSB SaSin', 'SSB Secret'], 7192, 6955], [44.902, 'JAG Chaser', 'SSB SaSin', ['SSB Catch', 'SSB Nuclear', 'SSB Secret'], 5673, 8819], [45.082, 'JAG Sweet', 'SSB Catch', ['SSB SaSin'], 3957, 11284]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                1
+[[8.519, 'MSF IgNar', 'UOL Samux', ['UOL Hylissang'], 13980, 4007], [11.345, 'MSF KaKAO', 'UOL Exileh', ['UOL Vizicsacsi', 'UOL Hylissang'], 13535, 5690], [11.373, 'MSF Hans Sama', 'UOL Vizicsacsi', ['UOL Xerxe'], 13738, 6678], [13.255, 'MSF KaKAO', 'UOL Exileh', ['UOL Xerxe', 'UOL Hylissang'], 5913, 9471], [14.048, 'MSF PowerOfEvil', 'UOL Exileh', ['UOL Samux'], 9037, 9050], [17.356, 'MSF Hans Sama', 'UOL Exileh', [], 9651, 9738], [17.825, 'MSF IgNar', 'UOL Vizicsacsi', ['UOL Samux', 'UOL Hylissang'], 9680, 10259], [17.833, 'MSF KaKAO', 'UOL Vizicsacsi', ['UOL Samux', 'UOL Hylissang'], 9654, 10017], [20.029, 'MSF IgNar', 'UOL Exileh', ['UOL Samux'], 9021, 10732], [21.463, 'MSF Hans Sama', 'UOL Exileh', ['UOL Vizicsacsi'], 8009, 10902], [21.493, 'MSF Alphari', 'UOL Hylissang', ['UOL Xerxe'], 10345, 8818], [21.496, 'MSF PowerOfEvil', 'UOL Exileh', [], 8127, 10310], [21.604, 'MSF KaKAO', 'UOL Xerxe', ['UOL Vizicsacsi'], 11996, 9772], [23.375, 'MSF Hans Sama', 'UOL Exileh', ['UOL Vizicsacsi', 'UOL Samux', 'UOL Hylissang'], 13157, 11292], [23.505, 'MSF KaKAO', 'UOL Samux', ['UOL Vizicsacsi', 'UOL Exileh', 'UOL Hylissang'], 12836, 12328], [23.518, 'MSF PowerOfEvil', 'UOL Samux', ['UOL Vizicsacsi', 'UOL Xerxe', 'UOL Exileh', 'UOL Hylissang'], 13341, 11897], [25.67, 'MSF Hans Sama', 'UOL Vizicsacsi', ['UOL Exileh'], 11492, 12707], [25.679, 'MSF PowerOfEvil', 'UOL Samux', ['UOL Vizicsacsi', 'UOL Exileh', 'UOL Hylissang'], 12615, 11934], [25.777, 'MSF KaKAO', 'UOL Vizicsacsi', ['UOL Xerxe', 'UOL Exileh', 'UOL Samux'], 13149, 12286], [25.801, 'MSF Alphari', 'UOL Xerxe', ['UOL Vizicsacsi', 'UOL Exileh', 'UOL Samux'], 13014, 10968], [25.957, 'MSF IgNar', 'UOL Xerxe', ['UOL Samux', 'UOL Hylissang'], 13938, 13567]]                                                                                                                                                                                                                                                                           1
+[[5.271, 'SPY Odoamne', 'FNC Broxah', ['FNC sOAZ'], 7895, 13262], [10.095, 'SPY Odoamne', 'FNC sOAZ', [], 2747, 13051], [13.074, 'SPY Xerxe', 'FNC Caps', ['FNC Broxah'], 9371, 7408], [28.559, 'SPY kaSing', 'FNC Caps', ['FNC Broxah', 'FNC Rekkles', 'FNC Hylissang'], 10572, 9856], [28.776, 'SPY Odoamne', 'FNC Caps', ['FNC sOAZ', 'FNC Broxah', 'FNC Rekkles', 'FNC Hylissang'], 10776, 11856], [38.332, 'SPY kaSing', 'FNC Caps', ['FNC sOAZ', 'FNC Broxah', 'FNC Rekkles', 'FNC Hylissang'], 9809, 11807], [38.417, 'SPY Xerxe', 'FNC Rekkles', ['FNC sOAZ', 'FNC Broxah', 'FNC Caps', 'FNC Hylissang'], 9622, 12866], [39.494, 'SPY Nisqy', 'FNC Broxah', ['FNC sOAZ', 'FNC Hylissang'], 5111, 12179], [40.45, 'SPY Xerxe', 'FNC Caps', ['FNC sOAZ', 'FNC Broxah', 'FNC Rekkles', 'FNC Hylissang'], 12805, 13212], [40.562, 'SPY Nisqy', 'FNC Rekkles', ['FNC sOAZ', 'FNC Broxah', 'FNC Caps', 'FNC Hylissang'], 14061, 13995]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    1
+[[2.609, 'AV Destiny', 'LGC Regret9', ['LGC k1ng'], 14007, 4411], [3.183, 'AV Blindturkey', 'LGC k1ng', ['LGC Regret9'], 14026, 4039], [6.157, 'AV Chelby', 'LGC Regret9', [], 12332, 1438], [6.542, 'AV Destiny', 'LGC k1ng', ['LGC Carbon', 'LGC ChuChuZ'], 12848, 1828], [6.749, 'AV Blindturkey', 'LGC k1ng', ['LGC Carbon', 'LGC ChuChuZ'], 12622, 2902], [8.229, 'AV Chelby', 'LGC ChuChuZ', ['LGC Carbon'], 6211, 10710], [9.215, 'AV Destiny', 'LGC Regret9', ['LGC ChuChuZ', 'LGC k1ng'], 11966, 2942], [17.686, 'AV wrekt', 'LGC ChuChuZ', ['LGC Tally', 'LGC Carbon', 'LGC Regret9'], 10805, 1768], [17.741, 'AV Blindturkey', 'LGC Tally', ['LGC Carbon', 'LGC ChuChuZ', 'LGC Regret9'], 11618, 1656], [18.69, 'AV Destiny', 'LGC Carbon', ['LGC k1ng'], 9191, 9611], [23.029, 'AV Chelby', 'LGC Tally', ['LGC Regret9'], 2881, 12216], [25.53, 'AV Blindturkey', 'LGC Regret9', ['LGC Tally', 'LGC ChuChuZ'], 4734, 9786], [25.699, 'AV Destiny', 'LGC Tally', ['LGC k1ng', 'LGC Regret9'], 3548, 10588], [25.701, 'AV Chelby', 'LGC Carbon', [], 5305, 12352], [25.844, 'AV wrekt', 'LGC Tally', ['LGC Carbon', 'LGC k1ng', 'LGC Regret9'], 1962, 13368], [25.925, 'AV Malaz', 'LGC k1ng', ['LGC Tally', 'LGC Carbon', 'LGC Regret9'], 2148, 12268], [27.518, 'AV Destiny', 'LGC k1ng', ['LGC Regret9'], 10255, 5542], [27.623, 'AV Chelby', 'LGC k1ng', ['LGC Tally', 'LGC Carbon', 'LGC Regret9'], 10032, 5340], [28.193, 'AV wrekt', 'LGC Tally', ['LGC ChuChuZ'], 12411, 13242], [28.236, 'AV Malaz', 'LGC k1ng', ['LGC Carbon', 'LGC ChuChuZ', 'LGC Regret9'], 12834, 12184], [28.282, 'AV Blindturkey', 'LGC ChuChuZ', ['LGC Tally', 'LGC Carbon', 'LGC k1ng', 'LGC Regret9'], 13575, 12953], [28.556, 'AV Chelby', 'LGC k1ng', ['LGC Tally', 'LGC Carbon', 'LGC ChuChuZ', 'LGC Regret9'], 13108, 12880], [28.6, 'AV Destiny', 'LGC k1ng', ['LGC Tally', 'LGC Carbon', 'LGC ChuChuZ', 'LGC Regret9'], 13787, 13322]]                                                                                                                                     1
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ..
+[[3.784, 'TM Benny', 'ahq Ziv', ['ahq Mountain'], 5705, 10805], [9.483, 'TM Zor', 'ahq Ziv', ['ahq Westdoor'], 4175, 13072], [11.315, 'TM K', 'ahq Ziv', [], 4017, 13738], [14.469, 'TM Benny', 'ahq Ziv', ['ahq Mountain', 'ahq Westdoor'], 6412, 8814], [14.618, 'TM Zor', 'ahq Westdoor', ['ahq Ziv'], 5292, 8809], [16.25, 'TM K', 'ahq Mountain', ['ahq RD'], 13609, 3748], [25.189, 'TM Benny', 'ahq Mountain', ['ahq Ziv', 'ahq Westdoor', 'ahq RD', 'ahq Albis'], 7514, 10194], [29.723, 'TM Breeze', 'ahq Mountain', ['ahq Westdoor'], 11675, 5592], [29.752, 'TM Benny', 'ahq Ziv', ['ahq RD', 'ahq Albis'], 11731, 7137], [29.815, 'TM Rain', 'ahq Mountain', ['ahq Ziv', 'ahq Westdoor', 'ahq RD', 'ahq Albis'], 11133, 5628], [29.84, 'TM Zor', 'ahq RD', ['ahq Mountain', 'ahq Westdoor', 'ahq Albis'], 10457, 5610], [30.401, 'TM K', 'ahq RD', ['ahq Ziv', 'ahq Mountain', 'ahq Albis'], 4866, 8783], [36.605, 'TM Zor', 'ahq Ziv', ['ahq Mountain', 'ahq Westdoor', 'ahq RD', 'ahq Albis'], 12975, 12221], [36.649, 'TM Rain', 'ahq Ziv', ['ahq Mountain', 'ahq Westdoor', 'ahq RD', 'ahq Albis'], 14256, 12830], [38.593, 'TM Rain', 'ahq Mountain', ['ahq Ziv', 'ahq Westdoor', 'ahq RD'], 8760, 13486], [39.329, 'TM K', 'ahq RD', ['ahq Ziv', 'ahq Mountain', 'ahq Westdoor', 'ahq Albis'], 13344, 12736]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              1
+[[12.503, 'CLG OmarGod', 'IMT Flame', ['IMT Xmithie'], 7841, 8207], [12.583, 'CLG Darshan', 'IMT Flame', ['IMT Xmithie', 'IMT Pobelter', 'IMT Cody Sun', 'IMT Olleh'], 8766, 8656], [12.632, 'CLG Huhi', 'IMT Pobelter', ['IMT Flame', 'IMT Cody Sun', 'IMT Olleh'], 8789, 8676], [15.253, 'CLG Darshan', 'IMT Xmithie', ['IMT Flame'], 7500, 13668], [15.381, 'CLG aphromoo', 'IMT Cody Sun', ['IMT Olleh'], 9245, 1339], [21.413, 'CLG OmarGod', 'IMT Cody Sun', ['IMT Flame', 'IMT Pobelter', 'IMT Olleh'], 4781, 6673], [21.449, 'CLG aphromoo', 'IMT Xmithie', ['IMT Flame', 'IMT Pobelter', 'IMT Cody Sun', 'IMT Olleh'], 5323, 6199], [21.558, 'CLG Darshan', 'IMT Cody Sun', ['IMT Flame', 'IMT Xmithie', 'IMT Olleh'], 6878, 6474], [21.69, 'CLG Stixxay', 'IMT Xmithie', ['IMT Flame', 'IMT Cody Sun', 'IMT Olleh'], 8984, 9024], [21.726, 'CLG Huhi', 'IMT Flame', ['IMT Cody Sun', 'IMT Olleh'], 10176, 7213], [23.548, 'CLG Huhi', 'IMT Flame', ['IMT Xmithie'], 10951, 10701], [24.291, 'CLG OmarGod', 'IMT Pobelter', ['IMT Flame', 'IMT Xmithie', 'IMT Cody Sun', 'IMT Olleh'], 10677, 13356], [25.534, 'CLG aphromoo', 'IMT Flame', ['IMT Xmithie'], 11675, 8091], [27.021, 'CLG Huhi', 'IMT Pobelter', ['IMT Xmithie'], 8627, 8491], [27.126, 'CLG OmarGod', 'IMT Olleh', ['IMT Flame', 'IMT Xmithie', 'IMT Cody Sun'], 9993, 9633], [27.164, 'CLG Darshan', 'IMT Pobelter', ['IMT Xmithie'], 7774, 8356], [27.287, 'CLG Stixxay', 'IMT Flame', [], 12132, 13235]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         1
+[[6.652, 'EMF GuGer', 'SSB Nuclear', ['SSB Flawless', 'SSB Secret'], 2623, 12136], [12.693, 'EMF Crush', 'SSB SoaR', ['SSB Flawless', 'SSB Nuclear', 'SSB Secret'], 9050, 1658], [12.741, 'EMF SSol', 'SSB SaSin', ['SSB SoaR', 'SSB Nuclear', 'SSB Secret'], 8803, 1129], [18.565, 'EMF GuGer', 'SSB SaSin', ['SSB SoaR', 'SSB Flawless', 'SSB Nuclear', 'SSB Secret'], 6994, 3930], [18.613, 'EMF Edge', 'SSB SaSin', ['SSB SoaR', 'SSB Flawless', 'SSB Nuclear'], 7934, 3391], [18.703, 'EMF Hipo', 'SSB Secret', ['SSB SoaR', 'SSB SaSin', 'SSB Nuclear'], 8096, 3513], [18.716, 'EMF Crush', 'SSB SaSin', ['SSB SoaR', 'SSB Flawless', 'SSB Nuclear', 'SSB Secret'], 7813, 3667], [27.941, 'EMF GuGer', 'SSB Flawless', ['SSB Nuclear', 'SSB Secret'], 5811, 6600], [28.549, 'EMF Edge', 'SSB SoaR', ['SSB Flawless', 'SSB SaSin', 'SSB Nuclear', 'SSB Secret'], 8666, 9024], [36.3, 'EMF Crush', 'SSB SaSin', ['SSB Flawless', 'SSB Nuclear', 'SSB Secret'], 10712, 4710], [36.318, 'EMF Hipo', 'SSB Nuclear', ['SSB Flawless', 'SSB SaSin', 'SSB Secret'], 11229, 4770], [37.693, 'EMF Crush', 'SSB Nuclear', ['SSB SoaR', 'SSB Flawless', 'SSB Secret'], 5024, 10956], [41.383, 'EMF Edge', 'SSB Nuclear', ['SSB SoaR', 'SSB Flawless', 'SSB Secret'], 6839, 742], [41.435, 'EMF Crush', 'SSB Nuclear', ['SSB SoaR', 'SSB Flawless', 'SSB SaSin', 'SSB Secret'], 6927, 1145], [41.454, 'EMF GuGer', 'SSB Nuclear', ['SSB SoaR', 'SSB Flawless', 'SSB SaSin', 'SSB Secret'], 6663, 1158], [45.423, 'EMF Crush', 'SSB Nuclear', ['SSB SoaR', 'SSB Flawless', 'SSB Secret'], 5150, 9534], [46.391, 'EMF GuGer', 'SSB Nuclear', [], 2341, 1738], [46.446, 'EMF Hipo', 'SSB Nuclear', [], 2317, 2644], [53.802, 'EMF Edge', 'SSB SaSin', ['SSB SoaR', 'SSB Secret'], 1190, 9530], [53.828, 'EMF GuGer', 'SSB Nuclear', ['SSB SoaR', 'SSB Flawless', 'SSB SaSin', 'SSB Secret'], 1064, 9384], [54.42, 'EMF Hipo', 'SSB Nuclear', ['SSB SoaR', 'SSB Flawless', 'SSB Secret'], 5014, 3139], [55.989, 'EMF Crush', 'SSB SoaR', ['SSB SaSin', 'SSB Nuclear'], 1842, 2095]]     1
+[[11.033, 'EVR Crazyplay', 'SSB Nuclear', ['SSB Flaw', 'SSB Secret'], 7638, 13456], [16.393, 'EVR Totoro', 'SSB Nuclear', ['SSB Flaw', 'SSB SaSin', 'SSB Secret'], 6266, 10262], [19.161, 'EVR JgRyan', 'SSB Flaw', ['SSB Soul', 'SSB SaSin', 'SSB Nuclear', 'SSB Secret'], 6274, 8506], [19.178, 'EVR Totoro', 'SSB SaSin', ['SSB Soul', 'SSB Flaw', 'SSB Nuclear', 'SSB Secret'], 6274, 8490], [19.279, 'EVR Crazyplay', 'SSB Nuclear', ['SSB Soul', 'SSB Flaw', 'SSB SaSin', 'SSB Secret'], 4936, 9168], [21.119, 'EVR Crazyplay', 'SSB SaSin', ['SSB Soul', 'SSB Flaw', 'SSB Nuclear', 'SSB Secret'], 11886, 3081], [21.761, 'EVR Totoro', 'SSB SaSin', ['SSB Soul'], 7241, 8903], [23.797, 'EVR JgRyan', 'SSB Nuclear', ['SSB Soul', 'SSB Flaw', 'SSB SaSin', 'SSB Secret'], 7364, 10046], [29.028, 'EVR Totoro', 'SSB SaSin', ['SSB Soul', 'SSB Nuclear', 'SSB Secret'], 9381, 9311], [29.076, 'EVR Athena', 'SSB Nuclear', ['SSB Soul', 'SSB Flaw', 'SSB SaSin', 'SSB Secret'], 8298, 10101], [29.23, 'EVR LokeN', 'SSB Flaw', ['SSB Soul', 'SSB SaSin', 'SSB Nuclear', 'SSB Secret'], 8059, 10175], [29.267, 'EVR Crazyplay', 'SSB Soul', ['SSB Flaw', 'SSB SaSin', 'SSB Nuclear'], 8179, 10272], [30.696, 'EVR JgRyan', 'SSB SaSin', ['SSB Nuclear', 'SSB Secret'], 5434, 10615], [31.154, 'EVR Athena', 'SSB Flaw', ['SSB Soul', 'SSB SaSin', 'SSB Nuclear'], 5634, 5472], [31.171, 'EVR Crazyplay', 'SSB Nuclear', ['SSB Soul', 'SSB Flaw'], 4766, 5402], [31.286, 'EVR LokeN', 'SSB Flaw', ['SSB Soul', 'SSB Nuclear'], 4074, 7108], [31.313, 'EVR Totoro', 'SSB SaSin', ['SSB Soul', 'SSB Nuclear'], 5632, 7494], [39.343, 'EVR Athena', 'SSB Soul', ['SSB Flaw', 'SSB SaSin', 'SSB Nuclear', 'SSB Secret'], 3440, 9013], [39.359, 'EVR LokeN', 'SSB Soul', ['SSB SaSin', 'SSB Nuclear', 'SSB Secret'], 3707, 8312], [39.392, 'EVR JgRyan', 'SSB Nuclear', ['SSB Soul', 'SSB SaSin', 'SSB Secret'], 5767, 7693], [39.449, 'EVR Crazyplay', 'SSB SaSin', ['SSB Flaw', 'SSB Nuclear', 'SSB Secret'], 4050, 10046]]                                                1
+[[4.171, 'VIT Cabochard', 'GIA Flaxxish', ['GIA Memento'], 4371, 13714], [10.758, 'VIT Djoko', 'GIA Memento', [], 10642, 3130]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              1
+Name: bKills, Length: 7543, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]                                                                                                                                                                                                                                                                                                                                                                                                                                246
+[[16.02, 'TOP_LANE', 'OUTER_TURRET']]                                                                                                                                                                                                                                                                                                                                                                                               2
+[[13.769, 'BOT_LANE', 'OUTER_TURRET']]                                                                                                                                                                                                                                                                                                                                                                                              2
+[[22.651, 'TOP_LANE', 'OUTER_TURRET']]                                                                                                                                                                                                                                                                                                                                                                                              2
+[[15.722, 'BOT_LANE', 'OUTER_TURRET']]                                                                                                                                                                                                                                                                                                                                                                                              2
+                                                                                                                                                                                                                                                                                                                                                                                                                                 ... 
+[[40.894, 'TOP_LANE', 'BASE_TURRET'], [23.294, 'BOT_LANE', 'OUTER_TURRET'], [44.102, 'BOT_LANE', 'BASE_TURRET'], [29.576, 'BOT_LANE', 'INNER_TURRET'], [17.383, 'MID_LANE', 'OUTER_TURRET'], [37.19, 'TOP_LANE', 'INNER_TURRET'], [17.838, 'TOP_LANE', 'OUTER_TURRET']]                                                                                                                                                             1
+[[35.864, 'TOP_LANE', 'BASE_TURRET'], [33.3, 'MID_LANE', 'INNER_TURRET'], [36.055, 'MID_LANE', 'BASE_TURRET'], [39.681, 'MID_LANE', 'NEXUS_TURRET'], [15.228, 'TOP_LANE', 'OUTER_TURRET'], [39.747, 'MID_LANE', 'NEXUS_TURRET'], [38.913, 'BOT_LANE', 'INNER_TURRET'], [30.506, 'BOT_LANE', 'OUTER_TURRET'], [35.654, 'TOP_LANE', 'INNER_TURRET'], [31.562, 'MID_LANE', 'OUTER_TURRET']]                                            1
+[[17.819, 'TOP_LANE', 'OUTER_TURRET'], [8.653, 'BOT_LANE', 'OUTER_TURRET'], [15.469, 'MID_LANE', 'OUTER_TURRET'], [29.409, 'MID_LANE', 'INNER_TURRET']]                                                                                                                                                                                                                                                                             1
+[[15.875, 'TOP_LANE', 'OUTER_TURRET'], [20.603, 'MID_LANE', 'INNER_TURRET'], [23.528, 'BOT_LANE', 'OUTER_TURRET'], [16.535, 'MID_LANE', 'OUTER_TURRET']]                                                                                                                                                                                                                                                                            1
+[[26.596, 'MID_LANE', 'INNER_TURRET'], [27.707, 'BOT_LANE', 'INNER_TURRET'], [28.409, 'TOP_LANE', 'INNER_TURRET'], [16.57, 'BOT_LANE', 'OUTER_TURRET'], [34.021, 'MID_LANE', 'NEXUS_TURRET'], [33.894, 'MID_LANE', 'NEXUS_TURRET'], [28.932, 'TOP_LANE', 'BASE_TURRET'], [32.318, 'MID_LANE', 'BASE_TURRET'], [18.173, 'TOP_LANE', 'OUTER_TURRET'], [28.819, 'BOT_LANE', 'BASE_TURRET'], [22.261, 'MID_LANE', 'OUTER_TURRET']]      1
+Name: bTowers, Length: 7331, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]                                                                                          3081
+[[39.355, 'MID_LANE']]                                                                         3
+[[28.009, 'MID_LANE']]                                                                         3
+[[36.998, 'MID_LANE']]                                                                         2
+[[31.229, 'MID_LANE']]                                                                         2
+                                                                                            ... 
+[[19.368, 'BOT_LANE'], [21.626, 'TOP_LANE']]                                                   1
+[[23.588, 'MID_LANE'], [29.503, 'BOT_LANE'], [26.074, 'TOP_LANE'], [28.832, 'MID_LANE']]       1
+[[36.698, 'MID_LANE']]                                                                         1
+[[32.106, 'MID_LANE'], [34.035, 'TOP_LANE']]                                                   1
+[[27.055, 'MID_LANE']]                                                                         1
+Name: bInhibs, Length: 4476, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]                                                                               1508
+[[24.312, None]]                                                                    3
+[[15.224, 'EARTH_DRAGON']]                                                          2
+[[14.05, 'FIRE_DRAGON']]                                                            2
+[[23.199, None]]                                                                    2
+                                                                                 ... 
+[[17.482, None], [24.331, None], [31.617, None]]                                    1
+[[12.741, 'WATER_DRAGON'], [25.248, 'FIRE_DRAGON'], [38.109, 'ELDER_DRAGON']]       1
+[[30.444, 'FIRE_DRAGON'], [24.321, 'FIRE_DRAGON']]                                  1
+[[22.468, 'FIRE_DRAGON'], [34.996, 'FIRE_DRAGON']]                                  1
+[[31.918, 'EARTH_DRAGON']]                                                          1
+Name: bDragons, Length: 6058, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]            3312
+[[24.569]]       4
+[[25.943]]       4
+[[22.641]]       3
+[[24.184]]       3
+              ... 
+[[35.802]]       1
+[[31.148]]       1
+[[28.569]]       1
+[[37.263]]       1
+[[28.901]]       1
+Name: bBarons, Length: 4051, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]                     5342
+[[12.705]]                4
+[[19.033]]                3
+[[16.471]]                3
+[[18.064]]                3
+                       ... 
+[[14.612]]                1
+[[18.366], [9.719]]       1
+[[19.207]]                1
+[[17.254]]                1
+[[10.337]]                1
+Name: bHeralds, Length: 2050, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[2500, 2500, 2657, 3950, 5560, 7011, 8532, 9871, 11246, 12916, 14547, 16052, 17554, 18801, 20488, 22041, 24145, 25548, 27085, 28786, 30167, 31499, 32909, 33994, 35794, 37341, 39212, 40813, 42525, 43789, 45556, 47874, 50010, 51530, 54112, 55643, 56850, 58832, 60745, 62175, 63169, 64288, 65212]                                                                                  1
+[2500, 2500, 2757, 4192, 5883, 7102, 8580, 10077, 11551, 12971, 14406, 16152, 17217, 18990, 20468, 22509, 24592, 26136, 28504, 30772, 32597, 34769, 38266, 41437, 42616, 46267, 48084, 49775, 51584, 53343, 54686, 56908, 58643, 60163]                                                                                                                                                1
+[2500, 2500, 2743, 4166, 5852, 7145, 8627, 10123, 11718, 12977, 14509, 16014, 18500, 20940, 22474, 24727, 26359, 28678, 29943, 31493, 33786, 35030, 36050, 37820, 39650, 41213, 42638, 44331, 45754, 47217, 48445, 49714, 51154]                                                                                                                                                       1
+[2415, 2415, 3220, 4298, 5319, 6497, 7633, 8890, 10246, 11450, 13016, 14230, 15472, 16838, 18394, 20007, 21458, 22931, 24291, 25600, 27271, 28232, 31448, 32501, 34258, 35620, 37599, 38864, 40315, 41228, 43656, 44728, 46325, 49041, 52987, 53976, 55023, 56074, 57330, 58841, 60040, 63330, 65958, 68164, 72005]                                                                    1
+[2500, 2500, 2645, 3928, 5533, 7003, 8524, 9788, 11018, 12376, 14106, 15449, 16798, 18303, 19669, 21531, 23305, 24950, 26759, 28271, 30656, 32173, 33762, 35645, 37342, 38543, 40425, 42171, 45374, 46574, 48492, 49811, 51445, 53680, 55777, 57483, 58698, 60691, 62558, 65410, 67082, 68998]                                                                                         1
+                                                                                                                                                                                                                                                                                                                                                                                      ..
+[2500, 2500, 2756, 4314, 5671, 7324, 8659, 10195, 11722, 13453, 16046, 18306, 19805, 21485, 22755, 25057, 26333, 28032, 29528, 31048, 33167, 35632, 37657, 39225, 41255, 43992, 44794, 48222, 50731, 52499, 56031, 58094, 62097, 63979, 65693]                                                                                                                                         1
+[2500, 2500, 2745, 4077, 6266, 7706, 9154, 11532, 12749, 14369, 16102, 17661, 19367, 21014, 22869, 24745, 26578, 29281, 30989, 32719, 34437, 36103, 38688, 40398, 42574, 45237, 47374, 49676, 52121, 53068, 54686, 57394, 59401, 60595, 63529, 65083, 68125, 70347, 72577, 73668, 75348, 77289, 78015, 80269, 81544, 83964, 86083, 87725, 89205, 90690, 93323, 95855, 97110, 99432]    1
+[2500, 2500, 2697, 4073, 5521, 6845, 8107, 9491, 10873, 12437, 14208, 15451, 16590, 18316, 19892, 21605, 23350, 25334, 27448, 29143, 30803, 32605, 33941, 36057, 37194, 38922, 40381, 42554, 44198, 46129, 47602, 49780, 51017, 52569, 54332, 56981, 58429, 60375, 61798, 63867, 65245, 68456, 70330, 71554, 72910, 75167, 77121]                                                      1
+[2500, 2500, 2685, 4252, 5705, 7267, 8940, 10048, 11650, 12958, 15052, 16482, 17753, 19252, 22511, 23714, 25827, 27240, 29371, 31282, 33101, 34964, 36593, 38895, 40733, 41722, 43240, 44140]                                                                                                                                                                                          1
+[2500, 2500, 2681, 4141, 5685, 7267, 8664, 9980, 11498, 12861, 14357, 15903, 17175, 19111, 21348, 23039, 24479, 25786, 26876, 27971, 29132, 30560, 32922, 34470, 36147, 37581, 39482, 40558, 42139, 43901, 45333, 46674, 47731]                                                                                                                                                        1
+Name: goldred, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      73
+[[2.98, 'ROX Smeb', 'MVP Beyond', ['MVP ADD'], 1600, 12564], [6.808, 'ROX Smeb', 'MVP ADD', [], 3491, 13256], [6.947, 'ROX Peanut', 'MVP Ian', ['MVP ADD'], 3073, 13389], [25.857, 'ROX Peanut', 'MVP ADD', ['MVP Beyond', 'MVP Ian', 'MVP MaHa', 'MVP Max'], 4458, 9462], [30.013, 'ROX Cry', 'MVP Ian', ['MVP Beyond', 'MVP MaHa', 'MVP Max'], 14176, 10874]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          1
+[[7.365, 'GET GorillA', 'NJE Cain', ['NJE Peanut', 'NJE Ohq'], 10136, 1359], [12.724, 'GET Kuro', 'NJE Duke', ['NJE Peanut', 'NJE Ggoong', 'NJE Ohq', 'NJE Cain'], 8799, 4941], [24.726, 'GET Kuro', 'NJE Ohq', ['NJE Peanut', 'NJE Ggoong'], 12171, 12315], [24.869, 'GET GorillA', 'NJE Ohq', ['NJE Peanut'], 12102, 13216]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           1
+[[19.816, 'kt Ssumday', 'CJE Ambition', ['CJE Space', 'CJE MadLife'], 6074, 5162], [31.573, 'kt hachani', 'CJE Shy', ['CJE Ambition', 'CJE Space', 'CJE MadLife'], 10015, 5088], [34.302, 'kt Arrow', 'CJE Space', ['CJE Ambition', 'CJE MadLife'], 4726, 8002], [34.756, 'kt hachani', 'CJE Coco', ['CJE Ambition', 'CJE MadLife'], 5589, 8542], [37.948, 'kt hachani', 'CJE Coco', [], 6569, 7228], [39.456, 'kt Nagne', 'CJE Coco', ['CJE Ambition'], 5435, 6153], [39.882, 'kt hachani', 'CJE Space', ['CJE Ambition'], 5350, 5884], [40.079, 'kt Arrow', 'CJE Shy', ['CJE Space'], 4506, 4756], [40.122, 'kt Ssumday', 'CJE Coco', ['CJE Shy', 'CJE Space', 'CJE MadLife'], 5269, 5954], [44.667, 'kt hachani', 'CJE Coco', ['CJE Ambition', 'CJE Space', 'CJE MadLife'], 6640, 3154], [49.178, 'kt hachani', 'CJE Space', ['CJE Shy', 'CJE Ambition', 'CJE Coco', 'CJE MadLife'], 5167, 3335], [50.01, 'kt Arrow', 'CJE Shy', ['CJE Ambition'], 12838, 12528]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1
+[[6.456, 'LGC Claire', 'AE Looch', ['AE Seb'], 7622, 7998], [8.373, 'LGC Claire', 'AE Raid', ['AE Pabu', 'AE Seb', 'AE Rosey'], 13500, 4564], [8.422, 'LGC Carbon', 'AE Seb', ['AE Pabu', 'AE Raid', 'AE Rosey'], 12221, 4631], [10.29, 'LGC Tally', 'AE Seb', ['AE Pabu'], 2169, 13159], [13.174, 'LGC Carbon', 'AE Seb', ['AE Looch'], 6756, 9513], [20.24, 'LGC Tally', 'AE Looch', ['AE Seb', 'AE Raid'], 10808, 5138], [20.244, 'LGC Claire', 'AE Seb', ['AE Looch', 'AE Raid'], 10754, 5140], [20.448, 'LGC Lost', 'AE Pabu', ['AE Seb', 'AE Looch'], 11844, 1872], [20.541, 'LGC Carbon', 'AE Pabu', ['AE Seb', 'AE Rosey'], 10260, 925], [23.804, 'LGC Cupcake', 'AE Pabu', ['AE Seb', 'AE Looch', 'AE Raid', 'AE Rosey'], 6929, 6589], [23.808, 'LGC Tally', 'AE Looch', ['AE Pabu', 'AE Seb', 'AE Raid', 'AE Rosey'], 6958, 6556], [33.039, 'LGC Tally', 'AE Raid', ['AE Seb', 'AE Looch', 'AE Rosey'], 13984, 10646], [33.295, 'LGC Cupcake', 'AE Raid', ['AE Looch', 'AE Rosey'], 13917, 8015], [33.549, 'LGC Carbon', 'AE Looch', ['AE Pabu', 'AE Seb', 'AE Raid', 'AE Rosey'], 14122, 7008], [36.158, 'LGC Carbon', 'AE Looch', ['AE Pabu', 'AE Seb', 'AE Raid', 'AE Rosey'], 9854, 6439]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 1
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ..
+[[11.446, 'DIG Ssumday', 'FLY Balls', ['FLY Moon'], 810, 10455], [19.448, 'DIG LOD', 'FLY Hai', ['FLY Balls', 'FLY LemonNation'], 6728, 6321], [19.522, 'DIG Keane', 'FLY Balls', ['FLY Hai', 'FLY Altec', 'FLY LemonNation'], 6591, 6138], [19.679, 'DIG Chaser', 'FLY Altec', ['FLY Balls', 'FLY Moon', 'FLY Hai'], 6131, 6416], [19.793, 'DIG Ssumday', 'FLY Altec', ['FLY Balls', 'FLY Moon', 'FLY Hai', 'FLY LemonNation'], 6571, 6712], [21.358, 'DIG LOD', 'FLY Moon', ['FLY Balls', 'FLY Hai', 'FLY Altec', 'FLY LemonNation'], 10650, 3231], [21.721, 'DIG Chaser', 'FLY Balls', [], 13366, 4404], [21.757, 'DIG Keane', 'FLY Balls', [], 13644, 4092]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         1
+[[5.794, 'IM TusiN', 'kt Arrow', ['kt Score', 'kt Fixer'], 12776, 1891], [10.654, 'IM Frozen', 'kt Score', ['kt Nagne'], 5959, 6190], [13.009, 'IM TusiN', 'kt Ssumday', ['kt Score', 'kt Nagne', 'kt Arrow', 'kt Fixer'], 10539, 3176], [13.024, 'IM Ares', 'kt Arrow', ['kt Ssumday', 'kt Score', 'kt Nagne', 'kt Fixer'], 10925, 4766], [13.064, 'IM Frozen', 'kt Arrow', ['kt Ssumday', 'kt Score', 'kt Nagne', 'kt Fixer'], 11248, 3381], [19.101, 'IM TusiN', 'kt Fixer', ['kt Score', 'kt Arrow'], 6794, 3064], [19.158, 'IM Ares', 'kt Nagne', ['kt Score', 'kt Arrow', 'kt Fixer'], 7655, 2373], [30.062, 'IM SONSTAR', 'kt Arrow', ['kt Ssumday', 'kt Score', 'kt Fixer'], 747, 7548], [30.096, 'IM TusiN', 'kt Nagne', ['kt Ssumday', 'kt Score', 'kt Arrow', 'kt Fixer'], 784, 6360], [30.142, 'IM Frozen', 'kt Arrow', ['kt Ssumday', 'kt Score', 'kt Nagne', 'kt Fixer'], 1001, 6310], [30.656, 'IM Ares', 'kt Nagne', ['kt Ssumday', 'kt Arrow', 'kt Fixer'], 3041, 8152], [33.081, 'IM SONSTAR', 'kt Arrow', ['kt Ssumday', 'kt Score', 'kt Fixer'], 942, 4932], [33.112, 'IM TusiN', 'kt Nagne', ['kt Ssumday', 'kt Score', 'kt Arrow', 'kt Fixer'], 1563, 4550], [33.143, 'IM Ares', 'kt Fixer', ['kt Ssumday', 'kt Score', 'kt Nagne', 'kt Arrow'], 1001, 4299], [33.143, 'IM Lil4c', 'kt Fixer', ['kt Ssumday', 'kt Score', 'kt Nagne', 'kt Arrow'], 1008, 4243]]                                                                                                                                                                                                                                                                                                                                                                                                                                    1
+[[8.459, 'TL Xpecial', 'TSM Dyrus', ['TSM Santorin', 'TSM Bjergsen', 'TSM WildTurtle', 'TSM Lustboy'], 10234, 1406], [8.541, 'TL Quas', 'TSM Bjergsen', ['TSM Dyrus', 'TSM Santorin', 'TSM WildTurtle', 'TSM Lustboy'], 10207, 999], [15.609, 'TL Xpecial', 'TSM Bjergsen', ['TSM Santorin', 'TSM Lustboy'], 7569, 5178], [24.809, 'TL Xpecial', 'TSM Dyrus', ['TSM Santorin', 'TSM Bjergsen', 'TSM WildTurtle', 'TSM Lustboy'], 10305, 5418], [25.014, 'TL IWDominate', 'TSM Dyrus', ['TSM Santorin', 'TSM Bjergsen', 'TSM WildTurtle', 'TSM Lustboy'], 11276, 5588], [25.085, 'TL FeniX', 'TSM WildTurtle', ['TSM Dyrus', 'TSM Santorin', 'TSM Bjergsen', 'TSM Lustboy'], 10087, 5963], [25.149, 'TL Quas', 'TSM Bjergsen', ['TSM Dyrus', 'TSM Santorin', 'TSM WildTurtle', 'TSM Lustboy'], 11204, 5554], [25.275, 'TL Piglet', 'TSM Dyrus', ['TSM Santorin', 'TSM Bjergsen', 'TSM WildTurtle', 'TSM Lustboy'], 8085, 6459], [29.696, 'TL Xpecial', 'TSM WildTurtle', ['TSM Dyrus', 'TSM Bjergsen', 'TSM Lustboy'], 8546, 7959], [32.015, 'TL IWDominate', 'TSM Bjergsen', ['TSM Dyrus', 'TSM Santorin', 'TSM WildTurtle', 'TSM Lustboy'], 8158, 6897], [35.007, 'TL IWDominate', 'TSM Bjergsen', ['TSM Dyrus'], 5334, 10414], [36.623, 'TL Xpecial', 'TSM Santorin', ['TSM Bjergsen', 'TSM WildTurtle'], 10372, 6858]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                1
+[[5.551, 'FLY LemonNation', 'CLG Huhi', ['CLG Stixxay', 'CLG aphromoo'], 12379, 1408], [8.142, 'FLY LemonNation', 'CLG Huhi', ['CLG Stixxay', 'CLG aphromoo'], 10220, 1062], [11.292, 'FLY Moon', 'CLG Xmithie', ['CLG Huhi'], 6502, 7278], [11.311, 'FLY Hai', 'CLG Huhi', ['CLG Xmithie'], 6144, 6938], [12.808, 'FLY LemonNation', 'CLG Xmithie', ['CLG Huhi', 'CLG aphromoo'], 8135, 5292], [16.526, 'FLY Balls', 'CLG Huhi', ['CLG Darshan'], 798, 10273], [17.346, 'FLY LemonNation', 'CLG Stixxay', ['CLG Xmithie', 'CLG Huhi', 'CLG aphromoo'], 12767, 1804], [17.436, 'FLY Moon', 'CLG Darshan', ['CLG Huhi', 'CLG Stixxay', 'CLG aphromoo'], 10794, 1288], [17.497, 'FLY Balls', 'CLG aphromoo', ['CLG Xmithie', 'CLG Huhi', 'CLG Stixxay'], 11931, 1343], [17.532, 'FLY Hai', 'CLG Stixxay', ['CLG Huhi', 'CLG aphromoo'], 11325, 1136], [17.72, 'FLY Altec', 'CLG Stixxay', ['CLG Darshan', 'CLG aphromoo'], 6738, 1327], [18.989, 'FLY Hai', 'CLG Darshan', ['CLG Huhi'], 2264, 5405], [21.903, 'FLY Altec', 'CLG Huhi', ['CLG Darshan', 'CLG Xmithie', 'CLG Stixxay'], 4892, 5176], [22.407, 'FLY Hai', 'CLG Huhi', ['CLG Darshan', 'CLG Stixxay', 'CLG aphromoo'], 6011, 6073], [22.503, 'FLY Balls', 'CLG Darshan', ['CLG Xmithie', 'CLG Huhi', 'CLG Stixxay', 'CLG aphromoo'], 5810, 5383], [22.609, 'FLY Moon', 'CLG Huhi', ['CLG Darshan', 'CLG aphromoo'], 3342, 3811], [22.652, 'FLY LemonNation', 'CLG Huhi', [], 3738, 3106], [23.829, 'FLY LemonNation', 'CLG Huhi', ['CLG Stixxay'], 4647, 5461], [24.713, 'FLY LemonNation', 'CLG Xmithie', ['CLG aphromoo'], 4823, 2865], [25.055, 'FLY Balls', 'CLG Huhi', [], 2456, 2587], [25.056, 'FLY Hai', 'CLG Huhi', ['CLG Xmithie'], 1960, 2842], [25.326, 'FLY Altec', 'CLG Huhi', ['CLG Xmithie', 'CLG Stixxay', 'CLG aphromoo'], 1535, 1106]]     1
+[[2.939, 'G2 Expect', 'UOL Xerxe', ['UOL Vizicsacsi'], 794, 10046], [4.033, 'G2 Expect', 'UOL Xerxe', ['UOL Vizicsacsi'], 1654, 10944], [6.5, 'G2 Perkz', 'UOL Xerxe', ['UOL Exileh'], 6391, 6637], [11.612, 'G2 mithy', 'UOL Samux', ['UOL Xerxe', 'UOL Hylissang'], 10475, 1237], [20.382, 'G2 Perkz', 'UOL Vizicsacsi', ['UOL Xerxe', 'UOL Exileh', 'UOL Samux', 'UOL Hylissang'], 6336, 6102], [23.623, 'G2 Zven', 'UOL Xerxe', ['UOL Vizicsacsi', 'UOL Exileh', 'UOL Hylissang'], 5392, 11308], [26.268, 'G2 Expect', 'UOL Xerxe', ['UOL Vizicsacsi', 'UOL Exileh', 'UOL Samux', 'UOL Hylissang'], 10288, 8354], [26.306, 'G2 Trick', 'UOL Samux', ['UOL Vizicsacsi', 'UOL Exileh', 'UOL Hylissang'], 10219, 10186]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                1
+Name: rKills, Length: 7510, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]                                                                                                                                                                                                                                                                                                                                                                                           473
+[[11.258, 'TOP_LANE', 'OUTER_TURRET']]                                                                                                                                                                                                                                                                                                                                                         2
+[[8.358, 'TOP_LANE', 'OUTER_TURRET']]                                                                                                                                                                                                                                                                                                                                                          2
+[[13.134, 'BOT_LANE', 'OUTER_TURRET']]                                                                                                                                                                                                                                                                                                                                                         2
+[[4.265, 'BOT_LANE', 'OUTER_TURRET']]                                                                                                                                                                                                                                                                                                                                                          2
+                                                                                                                                                                                                                                                                                                                                                                                            ... 
+[[5.767, 'TOP_LANE', 'OUTER_TURRET'], [21.889, 'MID_LANE', 'OUTER_TURRET'], [3.86, 'BOT_LANE', 'OUTER_TURRET']]                                                                                                                                                                                                                                                                                1
+[[25.244, 'BOT_LANE', 'INNER_TURRET'], [15.133, 'BOT_LANE', 'OUTER_TURRET'], [37.044, 'BOT_LANE', 'BASE_TURRET'], [19.633, 'TOP_LANE', 'OUTER_TURRET'], [37.688, 'MID_LANE', 'NEXUS_TURRET'], [31.382, 'MID_LANE', 'BASE_TURRET'], [37.557, 'MID_LANE', 'NEXUS_TURRET'], [18.181, 'MID_LANE', 'INNER_TURRET'], [17.887, 'MID_LANE', 'OUTER_TURRET']]                                           1
+[[28.556, 'TOP_LANE', 'INNER_TURRET'], [29.406, 'MID_LANE', 'NEXUS_TURRET'], [12.428, 'BOT_LANE', 'OUTER_TURRET'], [22.27, 'MID_LANE', 'OUTER_TURRET'], [27.707, 'MID_LANE', 'BASE_TURRET'], [26.135, 'MID_LANE', 'INNER_TURRET'], [28.276, 'TOP_LANE', 'OUTER_TURRET'], [29.472, 'MID_LANE', 'NEXUS_TURRET'], [26.394, 'BOT_LANE', 'INNER_TURRET'], [28.754, 'TOP_LANE', 'BASE_TURRET']]      1
+[[9.974, 'TOP_LANE', 'INNER_TURRET'], [3.653, 'TOP_LANE', 'OUTER_TURRET'], [5.879, 'BOT_LANE', 'OUTER_TURRET']]                                                                                                                                                                                                                                                                                1
+[[12.511, 'TOP_LANE', 'OUTER_TURRET'], [23.48, 'BOT_LANE', 'INNER_TURRET'], [23.192, 'BOT_LANE', 'OUTER_TURRET'], [15.0, 'TOP_LANE', 'INNER_TURRET']]                                                                                                                                                                                                                                          1
+Name: rTowers, Length: 7105, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]                                                                                          3765
+[[40.186, 'MID_LANE']]                                                                         2
+[[29.537, 'MID_LANE']]                                                                         2
+[[41.231, 'MID_LANE']]                                                                         2
+[[35.444, 'BOT_LANE']]                                                                         2
+                                                                                            ... 
+[[28.93, 'TOP_LANE'], [22.415, 'MID_LANE']]                                                    1
+[[44.521, 'MID_LANE']]                                                                         1
+[[37.435, 'TOP_LANE'], [35.729, 'BOT_LANE']]                                                   1
+[[29.005, 'BOT_LANE']]                                                                         1
+[[25.336, 'MID_LANE'], [22.695, 'BOT_LANE'], [24.841, 'TOP_LANE'], [16.281, 'BOT_LANE']]       1
+Name: rInhibs, Length: 3804, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]                                                                                                      1537
+[[9.436, 'FIRE_DRAGON']]                                                                                   2
+[[11.569, 'WATER_DRAGON']]                                                                                 2
+[[11.637, None]]                                                                                           2
+[[12.389, 'EARTH_DRAGON']]                                                                                 2
+                                                                                                        ... 
+[[18.535, 'FIRE_DRAGON'], [33.358, 'AIR_DRAGON']]                                                          1
+[[10.679, 'AIR_DRAGON'], [17.419, 'AIR_DRAGON']]                                                           1
+[[31.564, 'AIR_DRAGON'], [10.723, 'EARTH_DRAGON'], [17.312, 'EARTH_DRAGON'], [25.097, 'AIR_DRAGON']]       1
+[[18.137, 'WATER_DRAGON'], [11.784, 'EARTH_DRAGON']]                                                       1
+[[23.813, None], [9.734, None]]                                                                            1
+Name: rDragons, Length: 6036, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]                      3584
+[[29.753]]                 3
+[[30.548]]                 3
+[[22.444]]                 3
+[[24.724]]                 3
+                        ... 
+[[28.225]]                 1
+[[37.301], [27.845]]       1
+[[33.889]]                 1
+[[23.409]]                 1
+[[43.037], [25.04]]        1
+Name: rBarons, Length: 3855, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]            5881
+[[18.193]]       3
+[[19.383]]       3
+[[14.291]]       3
+[[19.375]]       3
+              ... 
+[[17.631]]       1
+[[17.982]]       1
+[[16.047]]       1
+[[14.497]]       1
+[[6.17]]         1
+Name: rHeralds, Length: 1620, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Smeb           178
+Ssumday        169
+CuVee          167
+Odoamne        149
+Hauntzer       137
+              ... 
+Verto            1
+Survivalone      1
+TheSoloKing      1
+Zeclipse         1
+XUE              1
+Name: blueTop, Length: 319, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Maokai      816
+Shen        652
+Gnar        624
+Rumble      571
+Nautilus    400
+           ... 
+Karma         1
+XinZhao       1
+Taliyah       1
+Diana         1
+Nunu          1
+Name: blueTopChamp, Length: 78, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[500, 500, 501, 698, 1028, 1370, 1626, 1956, 2291, 2531, 3074, 3305, 3685, 3958, 4454, 4950, 5442, 5874, 6290, 7114, 7602, 7976, 8149, 8572, 8965, 9361, 9942, 10242, 10863, 11387, 11691, 12375, 12782, 13369, 14422, 15260]                                                                                 1
+[500, 500, 521, 744, 1036, 1376, 1551, 1981, 2186, 2511, 2787, 3063, 3225, 3597, 3943, 4420, 4679, 5056, 5526, 5768, 6135, 6431, 7119, 7390, 7765, 8169, 8495, 8913, 9036, 9721, 10213, 10551, 10784, 11223, 11639, 11823, 12479, 12603, 12824, 12945]                                                        1
+[500, 500, 541, 798, 1017, 1427, 1726, 1925, 2392, 2630, 2772, 3010, 3246, 3635, 3876, 4791, 5214, 5744, 6071, 6498, 6878, 7219, 7641, 8124, 8806, 9158, 9681, 10409, 10879, 11453, 11986, 12590, 13236, 13624, 14052, 14561, 15244, 15478, 15600, 16030, 16507, 16752, 17810, 17986, 18588, 18851, 19592]    1
+[500, 500, 521, 831, 1185, 1476, 1826, 2163, 2479, 2790, 3148, 3470, 3769, 4169, 4775, 5347, 5605, 5785, 6338, 6579, 6902, 7138, 7400, 7877, 8561, 8958, 9376, 9841, 10277, 10499, 10993]                                                                                                                     1
+[500, 500, 521, 664, 1281, 1414, 1970, 2376, 2795, 3002, 3454, 3720, 4530, 4728, 5344, 5510, 5942, 6457, 6778, 7410, 7910, 8151, 8886, 9274, 9897, 10060, 10493, 10751, 11112, 11408, 11865, 12310, 12834, 13314, 13858, 13992, 14244, 14580]                                                                 1
+                                                                                                                                                                                                                                                                                                             ..
+[500, 500, 501, 641, 1003, 1165, 1709, 1955, 2299, 2613, 3049, 3545, 3702, 4043, 4231, 4417, 4987, 5621, 5992, 6450, 6687, 7139, 7577, 7991, 8160, 8701, 9135, 9293, 9718, 10328, 10673, 10823, 11126, 11616, 11773, 12052, 12408, 12575]                                                                     1
+[500, 500, 501, 644, 1109, 1379, 1866, 2205, 2822, 2985, 3322, 3598, 4166, 4421, 4640, 5208, 5584, 5981, 6364, 6784, 7085, 7394, 7787, 8295, 8503, 9072, 9616, 10396, 10519, 11003, 11141, 11403, 11761, 11884, 12122, 12327]                                                                                 1
+[500, 500, 501, 624, 1091, 1361, 1545, 1807, 1984, 2368, 2584, 2990, 3270, 3509, 3752, 4291, 4637, 5200, 5433, 5822, 6172, 6320, 6884, 7124, 7464, 7689, 8510, 8825, 9226, 9627]                                                                                                                              1
+[500, 500, 501, 805, 1121, 1455, 1652, 1916, 2227, 2443, 2858, 3257, 3492, 3830, 4222, 4578, 5059, 5321, 5566, 5837, 6162, 6423, 6748, 7249, 7699, 8172, 8373, 8568, 8837, 9176, 9581, 9726, 10053, 10501, 10878, 11362, 11484, 11607, 11959, 12031]                                                          1
+[475, 475, 533, 708, 1098, 1283, 1543, 1841, 2004, 2293, 2628, 2918, 3095, 3473, 3606, 3800, 4167, 4393, 4840, 5093, 5325, 5639, 5896, 6279, 6474, 6826, 7064, 7596, 7794, 7918, 8346, 8809, 9252, 9410, 9755, 10269, 10720, 10897, 11046, 11475, 11960]                                                      1
+Name: goldblueTop, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Score         175
+Ambition      152
+Xmithie       149
+Svenskeren    141
+Reignover     134
+             ... 
+LoveLing        1
+AnDa            1
+Akira           1
+Auspexa         1
+Loulex          1
+Name: blueJungle, Length: 346, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+RekSai          1114
+Elise           1055
+Gragas           986
+LeeSin           655
+Graves           590
+Khazix           484
+Nidalee          420
+Rengar           353
+JarvanIV         334
+Sejuani          279
+Zac              198
+Kindred          196
+Olaf             172
+Ivern            105
+Evelynn           83
+Hecarim           78
+Nunu              75
+Maokai            74
+Ekko              54
+Vi                32
+Warwick           30
+Chogath           24
+Kayn              22
+Rumble            20
+Nocturne          16
+Udyr              14
+Shyvana           14
+Poppy             12
+Pantheon          10
+Jax               10
+Rammus             7
+Camille            6
+Skarner            6
+Amumu              6
+Nautilus           6
+Trundle            5
+DrMundo            5
+Shaco              5
+Sion               3
+Lulu               2
+XinZhao            2
+Syndra             2
+Karthus            2
+Fizz               2
+Bard               2
+Malphite           1
+Mordekaiser        1
+Darius             1
+Fiddlesticks       1
+Draven             1
+Shen               1
+Ezreal             1
+Alistar            1
+Kassadin           1
+Illaoi             1
+Leblanc            1
+FiddleSticks       1
+Name: blueJungleChamp, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[475, 475, 533, 826, 1177, 1469, 1701, 2093, 2236, 2868, 3079, 3405, 3677, 3893, 4379, 4711, 5038, 5245, 5786, 6002, 6182, 6388, 6718, 7039, 7229, 7584, 8038, 8152, 8280, 8484, 8596, 9024, 9168, 9281, 9395, 9665, 9855, 10077, 10771, 11093, 11294, 12195, 12767, 13272]                    1
+[500, 500, 602, 979, 1384, 1666, 1875, 2097, 2330, 2636, 2922, 3126, 3410, 3637, 4020, 4291, 4622, 4891, 5209, 5489, 5752, 6166, 6397, 6658, 6896, 7044, 7420, 7760, 7984, 8332, 8614, 8789, 9236, 9467, 10255, 10501, 10803, 10979, 11411, 11837, 12199]                                      1
+[500, 500, 614, 995, 1320, 2028, 2379, 2591, 2714, 3121, 3751, 4139, 4362, 4701, 5145, 5361, 5674, 5795, 6316, 6494, 6995, 7539, 7958, 8213, 8946, 9260, 9426, 9920, 10370, 10865, 11153, 11903, 12036, 12925, 13240, 13605, 13727, 13855, 14179, 14340, 14575, 15315, 15438, 15847, 15976]    1
+[500, 500, 588, 907, 1217, 1566, 1722, 1959, 2102, 2454, 2575, 2788, 3017, 3166, 3511, 3863, 4258, 4576, 4730, 5062, 5350, 5562, 5842, 6120, 6354, 7161, 7398, 7717, 7945, 8332, 8714, 8935, 9180, 9387, 9682, 10304, 10503, 10904, 11162, 11441, 11793, 12029]                                1
+[500, 500, 588, 908, 1029, 1381, 1588, 1902, 2257, 2462, 2903, 3363, 3576, 4459, 4617, 5022, 5714, 6322, 6499, 6912, 7241, 7486, 7997]                                                                                                                                                         1
+                                                                                                                                                                                                                                                                                              ..
+[500, 500, 588, 980, 1363, 1847, 2236, 2511, 2892, 3032, 3321, 3452, 3769, 4027, 4357, 4649, 4972, 5365, 5707, 5975, 6388, 6741, 7189, 7655, 8028, 8324, 8577, 9174, 9759, 10264, 10573, 10770, 10964, 11380, 11597, 11803, 11982, 12332, 12649, 13164, 13388]                                 1
+[500, 500, 587, 905, 1211, 1521, 1833, 1956, 2296, 2609, 2868, 3081, 3525, 3868, 4249, 4657, 4898, 5243, 5609, 5852, 5999, 6429, 6579, 6821, 7349, 7929, 8797]                                                                                                                                 1
+[475, 475, 532, 866, 1204, 1408, 1637, 1931, 2206, 2479, 2747, 3027, 3196, 3531, 3824, 4049, 4560, 5038, 5401, 5895, 6119, 6527, 6641, 6882, 7258, 7538, 7883, 8244, 8533, 9096, 9357, 9513, 9778, 10320, 11222, 11691, 12080, 12512, 12750, 12864, 13597, 13771, 14315, 15046]                1
+[500, 500, 502, 923, 1157, 1445, 1569, 1782, 2090, 2232, 2454, 2790, 3099, 3242, 3486, 3779, 3925, 4202, 4538, 4687, 4992, 5353, 5698, 5950, 6166, 6333, 6515, 6860, 7044, 7329, 7604, 7846]                                                                                                   1
+[475, 475, 532, 794, 1126, 1442, 1673, 2020, 2238, 2403, 2729, 3113, 3287, 3955, 4171, 4408, 4855, 5103, 5257, 5501, 5899, 6267, 6586, 6945, 7059, 7221, 7501, 7792, 8652, 8969, 9335, 9745, 9966, 10110, 10528, 11188]                                                                        1
+Name: goldblueJungle, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Faker         177
+Kuro          165
+Crown         152
+Bjergsen      146
+Febiven       146
+             ... 
+huhi            1
+Sybol           1
+Julaxe          1
+Misteryous      1
+tei             1
+Name: blueMiddle, Length: 322, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Orianna     643
+Viktor      609
+Syndra      526
+Azir        481
+Corki       446
+           ... 
+LeeSin        1
+Draven        1
+Akali         1
+Tristana      1
+Camille       1
+Name: blueMiddleChamp, Length: 71, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[475, 475, 552, 841, 1176, 1580, 1882, 2141, 2505, 2799, 3155, 3601, 4358, 4630, 5090, 5555, 6005, 6236, 6664, 7304, 7685, 8207, 8706, 9064, 9994, 10291, 10783, 11367, 12029, 12597, 13030, 13572, 13774, 14038, 14505, 14751, 15321, 15474, 16299, 16624, 17340, 17611, 19168]                                                                               1
+[475, 475, 541, 850, 1121, 1416, 1730, 1865, 2238, 2572, 3001, 3222, 3598, 3956, 4341, 4717, 5089, 5340, 5583, 6342, 6773, 7217, 7447, 7704, 8062, 8252, 8846, 9253, 9646, 10330, 10717, 11086, 11324, 12203, 12740, 13050, 13943]                                                                                                                             1
+[500, 500, 612, 869, 1208, 1524, 1740, 2106, 2308, 2675, 2987, 3738, 3988, 4364, 5127, 5570, 5911, 6478, 6935, 7135, 7543, 7907, 8300, 8636, 9112, 9458, 9906, 10287, 10647, 11177, 11498, 11914, 12412, 13008, 13358, 13736, 14273, 15125, 15555, 15889, 16250, 17006, 17463, 17711, 18421, 19068, 19191, 19705, 19828, 20150, 20737, 20999, 21188, 21844]    1
+[475, 475, 533, 798, 1066, 1380, 1557, 1887, 2140, 2417, 2745, 2964, 3199, 3767, 4219, 4983, 5227, 5882, 6186, 6921, 7282, 7736, 8031, 8975]                                                                                                                                                                                                                   1
+[500, 500, 558, 907, 1287, 1694, 2193, 2469, 3048, 3332, 3649, 4368, 4735, 4862, 5357, 5821, 6215, 6714, 6934, 7154, 7275, 7428, 7844, 8099]                                                                                                                                                                                                                   1
+                                                                                                                                                                                                                                                                                                                                                              ..
+[500, 500, 579, 896, 1272, 1518, 1947, 2243, 2623, 3018, 3351, 3675, 4109, 4588, 4811, 5331, 5572, 5874, 6353, 6902, 7118, 7599, 8213, 8506, 9009, 9441, 9609, 9731, 10147, 10632, 11063, 11295, 11497, 13127, 13837, 14272, 14769, 15124, 15361, 15710, 16232, 16459, 16912, 17134, 17630]                                                                    1
+[500, 500, 612, 780, 1087, 1350, 1724, 2028, 2276, 2724, 3059, 3524, 3762, 4474, 4952, 5447, 5762, 6150, 6644, 7092, 7632, 7912, 8722, 9919, 10516, 10747, 11639, 12253, 12776, 13128, 13698]                                                                                                                                                                  1
+[500, 500, 559, 902, 1246, 1614, 1833, 2127, 2641, 3062, 3366, 3744, 4009, 4546, 4959, 5323, 5668, 5983, 6386, 6726, 7090, 7615, 8033, 8383, 8639, 8955, 9262, 9652, 10108, 10778, 11142, 11322, 11783, 12124, 13283, 13712, 14047, 14310, 14644, 15180, 15583]                                                                                                1
+[475, 500, 557, 851, 1162, 1649, 1921, 2299, 2580, 2859, 3311, 3746, 4128, 4819, 5165, 5552, 5826, 6248, 6478, 6991, 7360, 8023, 8304, 8782, 9008, 9233, 9838, 9976, 10281, 10642, 11068, 11923, 12737, 13177, 13560, 14011, 14573, 15070, 16192]                                                                                                              1
+[500, 500, 562, 922, 1221, 1524, 1927, 2197, 2643, 2970, 3234, 3634, 4201, 4832, 5216, 5756, 5880, 6294, 6757, 7188, 7635, 8067, 8413, 8852, 9361, 9593, 10235, 11206, 11740, 11993, 12615]                                                                                                                                                                    1
+Name: goldblueMiddle, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Bang            195
+Arrow           168
+PraY            167
+Sneaky          153
+Rekkles         140
+               ... 
+ZeroZeroYon       1
+The Foxz          1
+Moopz             1
+Fade              1
+Steeelbackkk      1
+Name: blueADC, Length: 344, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Lucian          793
+Sivir           780
+Ashe            751
+Kalista         701
+Jhin            674
+Varus           655
+Ezreal          651
+Caitlyn         582
+Tristana        438
+Corki           378
+KogMaw          276
+Xayah           256
+Jinx            116
+Twitch          113
+Vayne           112
+Graves          111
+MissFortune      49
+Ziggs            35
+Draven           33
+Urgot            32
+Kennen           31
+Mordekaiser       7
+Blitzcrank        1
+Alistar           1
+Irelia            1
+Janna             1
+Quinn             1
+Heimerdinger      1
+Karma             1
+Viktor            1
+Name: blueADCChamp, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[500, 500, 542, 811, 1185, 1538, 1953, 2239, 2539, 2932, 3272, 3508, 3983, 4477, 4735, 4949, 5453, 5873, 6199, 6846, 7338, 7606, 8171, 8458, 9298, 9548, 10025, 10191, 10408, 10975, 11738, 12348, 12530, 13150, 13462, 13944, 14934]                                                                                                                                               1
+[500, 500, 539, 845, 1294, 1606, 1879, 2249, 2632, 2973, 3408, 3771, 3973, 4349, 4688, 5022, 5220, 5460, 5949, 6439, 6797, 7085, 7285, 7612, 7940, 8334, 8622, 8854, 9266, 9623, 9931, 10448, 10819, 11268, 11531]                                                                                                                                                                  1
+[500, 500, 596, 950, 1296, 1697, 2107, 2269, 2710, 3106, 3504, 3807, 4179, 4550, 4831, 5202, 5532, 6041, 6305, 6547, 6748, 7089, 7485, 7899, 8313, 8605, 9904, 10286, 10773, 11194, 11666, 12221, 12838, 13126, 13796, 14063, 14475, 15058, 15986, 16464, 17323, 18417, 18826, 19436, 19912, 20496, 20908, 21425, 21980, 22446, 23104, 23520, 23841, 24738, 25092, 25387, 25584]    1
+[500, 500, 542, 828, 1274, 1591, 1898, 2233, 2591, 2868, 3197, 3614, 3908, 4029, 4303, 4762, 5105, 5602, 6329, 6636, 7111, 7343, 7464, 7998, 8272, 8474, 8747, 9009, 9176, 9327]                                                                                                                                                                                                    1
+[500, 500, 501, 829, 1164, 1490, 1796, 2010, 2394, 2710, 3124, 3500, 3759, 3952, 4176, 4584, 4923, 5190, 5537, 5882, 6145, 6507, 6818, 7153, 7744, 7867, 8482, 8887, 9389, 9686, 10011, 10573, 11012, 11688, 11952, 12174, 12580]                                                                                                                                                   1
+                                                                                                                                                                                                                                                                                                                                                                                   ..
+[500, 500, 561, 885, 1259, 1604, 1933, 2308, 2609, 2861, 3692, 4028, 4206, 4471, 4999, 5261, 5623, 6127, 6534, 7126, 7494, 8029, 8929, 9380, 10052, 11040, 11541, 12023, 12498, 12949, 13600, 14495]                                                                                                                                                                                1
+[500, 500, 596, 980, 1293, 1723, 1922, 2310, 2820, 2983, 3418, 3860, 4154, 4513, 4917, 5435, 5993, 6470, 6851, 6994, 7197, 7663, 8045, 8740, 9240, 9665, 10121, 10666, 11694]                                                                                                                                                                                                       1
+[500, 500, 501, 886, 1181, 1533, 1879, 2196, 2518, 2805, 3308, 3544, 3781, 4288, 4603, 5707, 6043, 6526, 6687, 6929, 7302, 7660, 8053, 8337, 8707, 9485, 9810, 10177, 10550, 11054, 11957, 12414, 12906, 13251, 13722, 14130, 14545, 14805, 16609, 16887, 17723]                                                                                                                    1
+[500, 500, 502, 851, 1145, 1462, 1769, 2126, 2489, 2819, 3175, 3573, 3892, 4270, 4799, 5396, 5665, 5948, 6515, 6881, 7154, 7529, 7919, 8285, 8711, 9077, 9269, 9506, 9646, 9769, 10054]                                                                                                                                                                                             1
+[500, 500, 521, 910, 1304, 1666, 1981, 2310, 2737, 3096, 3348, 3911, 4481, 4625, 5351, 5692, 6330, 6641, 7036, 7362, 7865, 8107, 8494, 9051, 9461, 9831, 10524, 10849, 11174, 11756, 12002, 12818, 13382, 14057, 14442, 14772, 14895, 15206, 15994, 16512, 17041, 17543, 17969, 18511, 18751, 18919, 19483, 20054, 20272, 20451]                                                    1
+Name: goldblueADC, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Wolf         185
+GorillA      174
+aphromoo     150
+Chei         124
+Hylissang    123
+            ... 
+Cola           1
+Athena         1
+Hanjaro        1
+Imagine        1
+Tierwulf       1
+Name: blueSupport, Length: 344, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Braum           1064
+Thresh           951
+Alistar          763
+Karma            637
+Janna            421
+Lulu             401
+Zyra             376
+TahmKench        368
+Bard             340
+Nami             307
+Morgana          287
+Trundle          239
+Malzahar         199
+Rakan            190
+Nautilus         181
+Taric            150
+Annie            129
+Blitzcrank        83
+Soraka            78
+Leona             77
+MissFortune       62
+Shen              41
+Kennen            38
+Brand             30
+Poppy             26
+Sona              24
+Zilean            21
+Camille           17
+Veigar            10
+Galio              9
+Velkoz             7
+Gragas             7
+Ornn               6
+Maokai             5
+Sejuani            4
+Lux                4
+LeeSin             3
+Kayle              3
+Sion               3
+Lissandra          3
+Garen              2
+Fiddlesticks       2
+Ashe               2
+Evelynn            1
+Malphite           1
+Elise              1
+Syndra             1
+Irelia             1
+Ahri               1
+Nunu               1
+Taliyah            1
+DrMundo            1
+Cassiopeia         1
+Zac                1
+Kalista            1
+Name: blueSupportChamp, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[500, 500, 502, 686, 849, 1008, 1154, 1299, 1466, 1660, 1850, 2190, 2360, 2765, 2959, 3376, 3906, 4111, 4312, 4493, 4885, 5053, 5239, 5611, 5810, 6418, 6744, 6946, 7148, 7338, 7545, 8422]                                                                        1
+[500, 500, 502, 710, 975, 1180, 1326, 1519, 1744, 1878, 2011, 2217, 2351, 2533, 2725, 2937, 3167, 3359, 3572, 3849, 4052, 4228, 4403, 4597, 4800, 5012, 5192, 5419, 5823, 6017, 6210]                                                                              1
+[500, 500, 531, 681, 894, 1087, 1268, 1441, 1608, 1747, 1911, 2132, 2335, 2588, 2767, 2940, 3154, 3339, 3682, 3900, 4095, 4314, 4672, 4858, 5136, 5375, 5589, 5853]                                                                                                1
+[500, 500, 501, 695, 877, 1062, 1229, 1430, 1581, 1774, 1925, 2120, 2312, 2499, 2718, 3004, 3387, 3657, 3875, 4240, 4456, 4677, 5158, 5378, 5598, 6085, 6565, 6876, 7067, 7433, 7883, 8057, 8292, 8693, 8878, 9227, 9652, 9846, 10088, 10415, 11009, 11214]        1
+[500, 519, 521, 717, 912, 1049, 1219, 1538, 1699, 2073, 2234, 2478, 2927, 3212, 3437, 3682, 4067, 4520, 5189, 6011, 6277, 6488, 7281, 7635, 8329]                                                                                                                  1
+                                                                                                                                                                                                                                                                  ..
+[500, 500, 530, 715, 894, 1217, 1494, 1823, 1958, 2154, 2361, 2875, 3164, 3396, 3643, 3892, 4055, 4356, 4641, 4854, 5216, 5848, 6036, 6254, 6884, 7186, 7622, 7987, 8696, 9404]                                                                                    1
+[500, 500, 526, 691, 857, 1017, 1174, 1342, 1492, 1669, 1850, 1988, 2147, 2345, 2538, 2720, 2885, 3104, 3270, 3582, 3826, 4032, 4526, 4697, 4901, 5430, 5810, 6092, 6319, 6804, 6997, 7233, 7582, 7811, 8053, 8278, 8463, 8675, 8879, 9355, 9869, 10361, 10819]    1
+[500, 500, 523, 683, 888, 1067, 1228, 1434, 1724, 1939, 2155, 2346, 2511, 2782, 3006, 3265, 3673, 3882, 4411, 4643, 4994, 5287, 5487, 5830, 6155, 6384, 6589, 6837, 7040, 7308, 7528, 7765, 8028, 8397, 8650, 9428, 9757, 10460]                                   1
+[500, 500, 501, 712, 996, 1156, 1442, 1656, 1844, 1982, 2129, 2269, 2544, 2737, 2964, 3133, 3502, 3675, 3901, 4070, 4311, 4863, 5034, 5227, 5477, 5963, 6574, 6841, 7029, 7538]                                                                                    1
+[515, 515, 584, 745, 918, 1084, 1446, 1737, 2053, 2506, 2684, 3130, 3272, 3446, 3586, 4367, 4824, 5116, 5272, 5718, 5853, 6294, 6440, 6722, 7001, 7355, 7520, 7659, 8062, 8381, 8987, 9141, 9325, 9509, 9853, 10256]                                               1
+Name: goldblueSupport, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]                                                   24
+['Bard', 'Kassadin', 'AurelionSol']                   5
+['Rumble', 'Kassadin', 'Lissandra']                   4
+['Urgot', 'Nidalee', 'Lulu']                          4
+['Fiora', 'Malphite', 'Gangplank']                    4
+                                                     ..
+['Vladimir', 'Swain', 'Lucian']                       1
+['Kalista', 'Lulu', 'Gangplank']                      1
+['Olaf', 'Cassiopeia', 'Nidalee']                     1
+['Anivia', 'Gangplank', 'Kalista']                    1
+['Malzahar', 'Jayce', 'Rengar', 'Shen', 'Kennen']     1
+Name: blueBans, Length: 7209, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+CuVee          157
+Smeb           156
+Hauntzer       156
+Ssumday        149
+Vizicsacsi     141
+              ... 
+Allorim          1
+WhiteKnight      1
+Babunia          1
+TheSoloKing      1
+Xiyang           1
+Name: redTop, Length: 324, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Maokai          868
+Gnar            664
+Shen            603
+Rumble          526
+Nautilus        396
+               ... 
+Ashe              1
+Annie             1
+Viktor            1
+Heimerdinger      1
+Diana             1
+Name: redTopChamp, Length: 81, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[500, 500, 502, 811, 1259, 1631, 2024, 2225, 2620, 2908, 3175, 3590, 3849, 4133, 4589, 5170, 5500, 5940, 6277, 6753, 7102, 7558, 8056, 8479, 8764, 9414, 10236, 10654, 10888, 11516, 11793, 12294, 12623, 12789, 13085, 13236, 13829, 14626, 15154, 15625, 15749, 16249, 16453, 16876, 17633, 18143]                                                                  1
+[500, 500, 522, 662, 1204, 1476, 1797, 2089, 2305, 2676, 3285, 3459, 3927, 4169, 4476, 4943, 5141, 5341, 5807, 6183, 6432, 6937, 7182, 7604, 8189, 8421, 8728]                                                                                                                                                                                                        1
+[500, 500, 521, 754, 931, 1234, 1544, 2128, 2385, 2612, 3110, 3527, 3943, 4103, 4425, 4827, 5397, 5840, 6562, 7054, 7617, 7989, 8358, 8503, 9101, 9674, 10056, 10778, 11421, 12065, 12421, 12916, 13146, 13326, 14017, 14467, 14587, 14952, 15457, 15642, 16021, 16229, 16773, 17119, 17587, 18217, 18627, 19357, 19479, 20017, 20139]                                1
+[500, 500, 501, 906, 1156, 1436, 1759, 2056, 2300, 2828, 2971, 3290, 3569, 3921, 4300, 4621, 5004, 5760, 6049, 6551, 6974, 7458, 7624, 8053, 8467, 8588, 9000, 10073, 10617, 10893, 11209, 11697, 12124, 12574, 12697, 13238, 13643, 14153, 14514, 14992, 15298, 15736, 16008, 16461, 16584, 16705, 17077, 17558, 17886, 18340, 18903, 19629, 20136, 20449, 20983]    1
+[475, 475, 532, 786, 1471, 1693, 2046, 2443, 2725, 3158, 3518, 5102, 5385, 6355, 6755, 7151, 7760, 8144, 8391, 8761, 9260, 9703, 10475, 11381, 11792, 12238]                                                                                                                                                                                                          1
+                                                                                                                                                                                                                                                                                                                                                                     ..
+[500, 500, 502, 890, 1199, 1451, 1650, 1935, 2129, 2477, 2833, 3165, 3458, 3903, 4273, 4634, 5073, 5522, 5762, 6082, 6433, 6685, 7047, 7353, 7952, 8511, 8835, 9357, 9735, 10543, 11298, 11521, 11888, 12227, 12771, 13045]                                                                                                                                           1
+[500, 500, 502, 845, 1090, 1442, 1820, 2050, 2461, 2832, 3133, 3925, 4228, 4662, 4927, 5415, 5773, 6216, 7064, 7303, 7966, 8236, 8609, 8980, 9357, 9630, 9882, 10006, 10319, 10535, 10658, 10905, 11370, 11867, 12629, 13302, 13424, 13757, 13880, 14075, 14517, 15052, 15585, 16077, 16299, 17019, 17142, 17706, 17962, 18751]                                       1
+[500, 500, 502, 828, 1145, 1478, 1866, 2313, 2594, 3064, 3376, 3674, 3966, 4372, 4831, 5093, 5524, 5835, 6797, 7019, 7376, 7710, 7912, 8369, 8549, 8805, 9298, 9560, 9991, 10297, 10713, 11013, 11496, 11657, 11848, 12123, 12244, 12697, 12941, 13970, 14501, 14751, 14878, 15776, 16163, 16964]                                                                     1
+[500, 500, 501, 866, 1201, 1414, 1823, 2017, 2450, 2761, 3086, 3580, 4149, 4817, 5311, 5624, 6155, 6379, 6532, 7149, 7638, 7922, 8617, 9210, 9470, 9591, 9839, 10090, 10420, 10753, 10876, 11569, 11904, 12557, 12778, 13201, 13730]                                                                                                                                  1
+[500, 500, 512, 882, 1252, 1685, 1948, 2168, 2537, 2991, 3300, 3666, 3849, 4179, 4663, 4912, 5153, 5499, 6016, 6209, 6590, 6978, 7721, 8052, 8491, 8790, 9157, 9418, 9906, 10078, 10476, 11033, 11425, 11605]                                                                                                                                                         1
+Name: goldredTop, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Score         154
+Svenskeren    150
+Ambition      142
+Xmithie       135
+Karsa         124
+             ... 
+Yampi           1
+Arcsecond       1
+Akira           1
+WTHeaven        1
+Hamezz          1
+Name: redJungle, Length: 349, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+RekSai          1186
+Gragas          1099
+Elise            994
+LeeSin           789
+Graves           549
+Khazix           543
+JarvanIV         354
+Nidalee          329
+Sejuani          279
+Rengar           256
+Kindred          200
+Olaf             144
+Ivern            125
+Zac               94
+Evelynn           88
+Hecarim           83
+Maokai            72
+Nunu              70
+Ekko              49
+Vi                47
+Rumble            21
+Warwick           20
+Chogath           19
+Pantheon          17
+DrMundo           14
+Nocturne          13
+Poppy             13
+Skarner           11
+Shyvana           11
+Udyr              10
+Kayn              10
+Jax                7
+Trundle            5
+Ezreal             5
+Rammus             5
+XinZhao            5
+Quinn              4
+Fizz               4
+Volibear           4
+Lulu               4
+Camille            4
+Nautilus           3
+MonkeyKing         3
+Jayce              2
+MasterYi           2
+Karma              2
+Malzahar           2
+Galio              1
+Aatrox             1
+Shaco              1
+MissFortune        1
+Riven              1
+Gnar               1
+Shen               1
+Rakan              1
+Bard               1
+Amumu              1
+Sion               1
+FiddleSticks       1
+Name: redJungleChamp, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[500, 500, 604, 911, 1204, 1486, 1721, 2014, 2172, 2381, 2813, 3072, 3263, 3682, 3889, 4223, 4462, 4707, 4983, 5190, 5468, 5811, 6070, 6349, 6590, 6969, 7180, 7429, 7909, 8078, 8246, 8609, 8823]                                                                                                    1
+[500, 500, 597, 745, 1194, 1419, 1769, 1974, 2186, 2425, 2905, 3233, 3376, 3756, 4495, 4838, 5241, 5893, 6240, 7025, 7560, 7947, 8697, 9004, 9549, 9904, 10250, 10460, 10775, 11084, 11773, 12342, 12830, 13066, 13832]                                                                               1
+[500, 500, 602, 923, 1056, 1491, 1694, 2074, 2196, 2590, 2905, 3256, 3480, 3728, 4207, 4590, 5215, 5541, 5851, 6114, 6496, 7191, 7808, 8123, 8620, 9261, 9788, 10262, 10389, 10837, 11659, 12354]                                                                                                     1
+[500, 500, 501, 872, 1286, 1591, 1814, 2135, 2358, 2583, 2797, 3188, 3815, 4126, 4354, 4508, 4812, 5123, 5383, 5733, 6071, 6256, 6726, 6877, 7044]                                                                                                                                                    1
+[500, 500, 614, 835, 1317, 1553, 2091, 2314, 2735, 3233, 3454, 3702, 3825, 4220, 4523, 4776, 4988, 5290, 5598, 6336, 6861, 7005, 7265, 7489, 7725, 7959]                                                                                                                                              1
+                                                                                                                                                                                                                                                                                                     ..
+[500, 500, 613, 996, 1317, 1613, 1744, 2166, 2448, 2722, 3009, 3218, 3437, 3921, 4251, 4496, 4641, 5047, 5440, 5855, 6062, 6311, 6630, 6955, 7291, 7631, 7987, 8184, 8406, 8650, 8884, 9249, 9429, 9774, 9990, 10877, 11382, 11816, 12157, 12804, 13024, 13597, 13811, 14418, 14970, 15235, 15924]    1
+[500, 500, 600, 911, 1754, 2062, 2297, 2507, 2825, 3126, 3653, 3867, 4149, 4439, 4572, 5072, 5712, 6046, 6455, 6942, 7323, 7473, 7915, 8133, 8446, 8797, 9094, 9292, 9608, 9968, 10468, 10646, 10950, 11443, 11705, 12164, 12677, 13447, 14192, 14750, 15286, 15890, 16159, 17406]                    1
+[500, 500, 602, 979, 1282, 1444, 1845, 2147, 2386, 3052, 3176, 3779, 4553, 4960, 5455, 5607, 6021, 6172, 6568, 6834, 7206, 7617, 7826, 8348, 8770, 9204, 9529, 9893, 10272, 10852, 11517, 12255, 12457, 12726, 13021, 13429, 13949, 14146, 15226]                                                     1
+[500, 500, 634, 993, 1166, 1389, 1672, 1866, 2148, 2481, 2635, 3014, 3262, 3633, 4548, 4920, 5149, 5503, 6008, 6252, 6597, 6743, 7039, 7304, 7590, 7892, 8249, 8614, 8955, 9180, 9472, 9813, 10056, 10259, 10622, 10820, 11004]                                                                       1
+[500, 500, 559, 893, 1387, 1610, 2118, 2264, 2540, 2710, 3048, 3349, 3688, 3908, 4303, 4606, 5045, 5425, 5773, 6496, 6811, 7149, 7549, 7912, 8166, 8615, 8877, 9020, 9568, 9867, 10307, 10616, 10867, 11569, 11818]                                                                                   1
+Name: goldredJungle, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Faker       188
+Bjergsen    172
+Kuro        148
+Crown       143
+Maple       127
+           ... 
+SorenXD       1
+Grace         1
+Emp           1
+Icon          1
+PAinEvil      1
+Name: redMiddle, Length: 323, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Orianna       671
+Viktor        592
+Corki         518
+Cassiopeia    507
+Syndra        461
+             ... 
+Nautilus        1
+Twitch          1
+Rumble          1
+Olaf            1
+Thresh          1
+Name: redMiddleChamp, Length: 77, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[500, 500, 541, 829, 1133, 1368, 1900, 2211, 2371, 2586, 2886, 3007, 3298, 3593, 4018, 4222, 4474, 4896, 5040, 5448, 5675, 5894, 6329, 6722, 7443, 7754, 7955, 8308]                                                                                              1
+[500, 500, 582, 933, 1225, 1558, 1965, 2317, 2711, 3139, 3470, 3849, 4260, 4646, 5293, 5914, 6356, 6974, 7109, 7893, 8487, 8906, 9240, 9675, 9974, 10186, 10620, 10974, 11370, 12134, 12416, 12882, 13430, 13806, 13970, 14367, 14871, 15541, 16320]              1
+[500, 500, 561, 868, 1239, 1613, 1945, 2356, 2653, 3020, 3437, 3795, 4126, 4529, 4929, 5388, 5861, 6198, 6709, 7006, 7431, 8070, 8528, 9132, 9968, 10531, 10967, 11505, 12027, 12438, 12848, 13265, 13489, 14412]                                                 1
+[500, 500, 560, 872, 1144, 1535, 1752, 2101, 2512, 2800, 3333, 3744, 4181, 4537, 5229, 5808, 6494, 6922, 7896, 8248, 8679, 9061, 9504, 9762, 10554, 11075, 11509, 11939, 12454, 12988, 14013]                                                                     1
+[500, 500, 562, 832, 1147, 1678, 1992, 2331, 2627, 3195, 3576, 3933, 4231, 4629, 5086, 5645, 5983, 6379, 6668, 7160, 7917, 8324, 8723, 9144, 9616, 10059, 10420, 11508, 12313, 12893, 13375]                                                                      1
+                                                                                                                                                                                                                                                                 ..
+[475, 475, 533, 802, 1112, 1499, 1731, 1989, 2414, 2837, 3061, 3397, 3861, 4320, 4661, 5049, 5309, 5750, 6176, 6801, 7288, 8305, 8796, 9118, 10132, 10470, 10892, 11104, 11722, 11908, 12451, 13064, 13347, 14228, 14718]                                         1
+[500, 500, 613, 829, 1262, 1644, 2167, 2447, 2788, 3030, 3481, 3860, 4368, 4724, 5054, 5492, 5902, 6252, 6640, 7142, 7539, 7848, 8337, 8845, 9179, 9862, 10216, 11458, 11703, 12060, 12222, 13151, 13518, 14724]                                                  1
+[500, 500, 612, 985, 1300, 1633, 1970, 2354, 2778, 2975, 3244, 3610, 3937, 4266, 4731, 5162, 5477, 5675, 5921, 6271, 6687, 7102, 7465, 7840, 8072, 8480, 8776, 9037, 9518, 9940, 10464, 10856, 11135, 11548, 11898, 12350, 12668, 13302, 13866, 14319]            1
+[475, 475, 532, 781, 1031, 1332, 1553, 1842, 2144, 2499, 2786, 3175, 3476, 3838, 4210, 4716, 4999, 5229, 5646, 6013, 6240, 6771, 7323, 7675, 7988, 8288, 8445, 8863, 9256, 9675, 10039, 10561, 11595, 12152]                                                      1
+[500, 500, 562, 825, 1217, 1574, 1960, 2252, 2648, 2769, 3222, 3580, 3941, 4315, 4537, 4824, 5120, 5241, 5865, 6205, 6623, 6996, 7411, 7724, 8215, 8607, 9024, 9417, 9830, 10537, 10939, 11257, 11575, 11729, 12068, 12534, 12926, 13519, 14161, 14615, 15731]    1
+Name: goldredMiddle, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Bang           208
+Arrow          160
+Sneaky         152
+PraY           149
+WildTurtle     143
+              ... 
+ZeroZeroYon      1
+K                1
+Rakin            1
+Sa1na            1
+Aiming           1
+Name: redADC, Length: 347, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Sivir          880
+Ashe           809
+Lucian         786
+Jhin           691
+Ezreal         646
+Varus          643
+Kalista        602
+Caitlyn        539
+Tristana       414
+Corki          402
+Xayah          272
+KogMaw         261
+Twitch         142
+Jinx           136
+Vayne           99
+Graves          94
+Urgot           41
+MissFortune     36
+Draven          27
+Kennen          23
+Ziggs           22
+Kindred          4
+Jayce            2
+Thresh           1
+Mordekaiser      1
+Quinn            1
+Kled             1
+Janna            1
+Lulu             1
+Taliyah          1
+Nunu             1
+Teemo            1
+Karthus          1
+Viktor           1
+Name: redADCChamp, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[500, 500, 541, 794, 1168, 1477, 1806, 2111, 2309, 2592, 3033, 3308, 3673, 3958, 4319, 4479, 4846, 5090, 5393, 5695, 6106, 6321, 6547, 6949, 7440, 8104, 8843, 9226, 9755, 10035, 10292, 10930, 11406, 11680, 11909, 12145, 12305, 12684, 13371, 13666, 13788, 14151]                                                                                                                                  1
+[475, 475, 532, 797, 1142, 1428, 1806, 2017, 2390, 2714, 3058, 3470, 3739, 3965, 4297, 4679, 4839, 5206, 5454, 5931, 6338, 6673, 7052, 7240, 7640, 8322, 8890, 9187, 9371, 9678, 10206, 10494, 10875, 11150, 11628, 11752, 12430, 12648]                                                                                                                                                               1
+[500, 500, 578, 906, 1173, 1479, 1772, 2109, 2506, 2721, 3111, 3571, 3934, 4250, 4537, 4893, 5722, 6094, 6687, 7437, 7673, 8009, 8297, 8533, 9053, 9397, 9658, 9985, 10211, 10557, 11386, 11936, 12605, 12921, 13735, 14223]                                                                                                                                                                           1
+[475, 475, 532, 807, 1101, 1468, 1746, 2117, 2272, 2632, 3009, 3388, 3710, 4191, 4543, 5161, 5742, 6087, 6324, 6710, 6974, 7421, 7790, 8187, 8453, 8790, 9276, 9645, 9759, 10305, 10750, 11115, 11711, 11934, 12227, 12477, 12663, 12970, 13175, 13494, 13795, 14068, 14232, 14695, 15135, 15405, 15883, 16180, 16809, 17228, 17685, 17931, 18313, 18634, 18875, 19347, 19461, 19990, 20922, 21817]    1
+[475, 475, 533, 802, 1120, 1534, 1756, 2127, 2528, 2784, 3160, 3722, 3911, 4477, 4755, 5077, 5349, 5740, 5906, 6512, 6922, 7534, 7926, 8430, 8892, 9320, 9770, 10185, 11056, 12380, 12701, 13091, 13660, 14344, 14733, 15081, 15313, 16037]                                                                                                                                                            1
+                                                                                                                                                                                                                                                                                                                                                                                                      ..
+[475, 475, 532, 761, 1106, 1797, 2049, 2313, 2664, 2924, 3307, 3621, 3841, 4202, 4430, 4793, 5272, 5639, 5842, 6345, 6459, 6983, 7225, 7506, 8026, 8199, 8349, 8664, 8995, 9970, 10439, 10730, 11054, 11663, 12220]                                                                                                                                                                                    1
+[500, 500, 522, 771, 1054, 1410, 1680, 1972, 2289, 2635, 3091, 3391, 3728, 4422, 4731, 5091, 5432, 5756, 6201, 6610, 7143, 7296, 7712, 7933, 8175, 8552, 8901, 9370, 9712, 10190, 10590, 10774, 11133, 11496, 11866, 12319, 12733, 13170, 13714]                                                                                                                                                       1
+[475, 475, 532, 778, 1108, 1419, 1788, 2051, 2264, 2580, 2967, 3331, 3668, 3987, 4394, 5067, 5274, 5532, 5976, 6168, 6333, 6807, 7086, 7503, 7697, 8080, 8194]                                                                                                                                                                                                                                         1
+[500, 500, 588, 938, 1274, 1607, 1729, 2193, 2352, 2700, 2904, 3310, 3547, 3929, 4329, 4640, 4980, 5374, 5709, 5965, 6297, 6516, 6937, 7283, 7798, 8256, 8553, 9141, 9332, 9589, 9864, 10189, 10517, 10928, 11388, 12154, 12717, 12879, 13136, 13430, 14090, 14321, 14992, 15151, 15355]                                                                                                               1
+[500, 500, 522, 838, 1090, 1518, 1754, 2127, 2467, 2742, 3059, 3492, 3684, 3998, 4306, 4565, 5178, 5496, 5873, 6115, 6285, 6659, 7078, 7747, 8246, 8664, 8890]                                                                                                                                                                                                                                         1
+Name: goldredADC, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Wolf          195
+GorillA       155
+Hylissang     138
+aphromoo      131
+SnowFlower    128
+             ... 
+S RD            1
+Bluz0r          1
+Targamas        1
+Ralara          1
+Tgee            1
+Name: redSupport, Length: 342, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+Braum           1023
+Thresh           967
+Alistar          851
+Karma            714
+Janna            450
+Lulu             361
+Zyra             351
+TahmKench        346
+Nami             324
+Bard             318
+Morgana          237
+Trundle          225
+Rakan            192
+Malzahar         191
+Nautilus         164
+Annie            151
+Taric            129
+Blitzcrank       113
+Leona             88
+MissFortune       88
+Soraka            66
+Shen              36
+Brand             25
+Kennen            25
+Sona              25
+Poppy             20
+Zilean            17
+Galio             15
+Gragas            11
+Veigar             9
+Camille            8
+Ornn               6
+Syndra             3
+Elise              3
+Fiddlesticks       3
+TwistedFate        2
+Kayle              2
+Lissandra          2
+Maokai             2
+Ziggs              2
+Lux                2
+Malphite           2
+Ashe               1
+Sion               1
+Nunu               1
+Udyr               1
+Rengar             1
+Irelia             1
+Ivern              1
+Jinx               1
+Vayne              1
+Kled               1
+Sejuani            1
+Velkoz             1
+Kalista            1
+Name: redSupportChamp, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[500, 500, 525, 703, 879, 1037, 1201, 1401, 1598, 1746, 1975, 2130, 2265, 2489, 2684, 2886, 3112, 3389, 3556, 4070, 4268, 4437, 4682, 4928, 5150, 5352, 5524, 5738, 6069, 6313, 6991, 7266, 7531, 7707, 7899, 8148, 8356, 8580, 8819]    1
+[500, 500, 507, 745, 1000, 1207, 1469, 1705, 2243, 2412, 2709, 3055, 3341, 3600, 3823, 4140, 4821, 5297, 5537, 6245, 6443, 6639, 7304, 7768, 8785]                                                                                       1
+[500, 500, 522, 687, 908, 1094, 1241, 1458, 1649, 1857, 2048, 2238, 2419, 2611, 2893, 3116, 3308, 3797, 4098, 4263, 4524, 4899, 5410, 5678, 5849, 6081, 6323, 6525, 6699, 6950, 7240]                                                    1
+[500, 500, 502, 714, 915, 1078, 1252, 1439, 1648, 1810, 2020, 2176, 2420, 2626, 2842, 3270, 3476, 3719, 4116, 4337, 4614, 5408, 5940, 6188, 6495, 6678, 6907, 7501, 7713, 8031, 8524]                                                    1
+[500, 500, 534, 711, 947, 1154, 1347, 1526, 1761, 1927, 2110, 2265, 2423, 2850, 3020, 3192, 3458, 3645, 4042, 4355, 4585, 4754, 5011, 5180, 5375, 5713, 5946, 6285, 6944, 7378, 7678, 7853, 8044, 8608, 8785, 9412]                      1
+                                                                                                                                                                                                                                        ..
+[500, 500, 515, 684, 878, 1050, 1188, 1365, 1843, 2021, 2208, 2357, 2554, 2818, 3189, 3362, 3560, 3795, 4197, 4520, 4752, 5057, 5767, 6075, 6534, 6716, 7207]                                                                            1
+[515, 515, 578, 743, 872, 1034, 1178, 1326, 1498, 1648, 1821, 1990, 2166, 2295, 2455, 3068, 3348, 3485, 3649, 3802, 3963, 4096, 4328, 4488, 4641, 4895, 5054, 5222, 5406, 5542, 5827, 6293, 6766, 6936, 7181, 7358, 7563, 7697, 7935]    1
+[515, 515, 578, 723, 876, 1019, 1210, 1370, 1525, 1687, 1888, 2358, 2482, 2672, 2923, 3121, 3473, 3594, 3717, 3849, 4075, 4198, 4322, 4560, 4807, 4977, 5121, 5283, 5451, 5608, 5771, 6018, 6425, 6558, 6694, 6843, 7015, 7143, 7362]    1
+[500, 500, 502, 680, 846, 998, 1131, 1274, 1409, 1719, 1852, 2027, 2161, 2328, 2555, 2762, 2928, 3096, 3283, 3678, 3896, 4112, 4314, 4562, 4734, 4955]                                                                                   1
+[515, 533, 602, 741, 887, 1045, 1180, 1346, 1481, 1651, 1787, 1947, 2167, 2321, 2597, 2785, 2920, 3117, 3312, 3591, 3891, 4026, 4586, 4728, 4913, 5203, 5518, 5730, 5893, 6504, 6667, 7698]                                              1
+Name: goldredSupport, Length: 7582, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+[]                                                           24
+['Kalista', 'Gragas', 'Ryze']                                 9
+['Kalista', 'Ryze', 'Alistar']                                8
+['Nidalee', 'Ryze', 'Kindred']                                7
+['Ryze', 'Kalista', 'Gragas']                                 7
+                                                             ..
+['Gnar', 'Nidalee', 'Gangplank']                              1
+['Nidalee', 'RekSai', 'Varus']                                1
+['Rakan', 'Maokai', 'Gragas', 'Leblanc', 'Kassadin']          1
+['Lulu', 'Poppy', 'Alistar']                                  1
+['Maokai', 'Gragas', 'Sejuani', 'Cassiopeia', 'Kassadin']     1
+Name: redBans, Length: 6928, dtype: int64
+/-/-/-/-/-/-/-//-/-/-/-/-/-/-/-//-/-/-/-/-/-/-//-/-/-/-/-/-/-/
+http://matchhistory.na.leagueoflegends.com/en/#match-details/TRTW/130041?gameHash=f550d245b7a9d24b              1
+http://matchhistory.na.leagueoflegends.com/en/#match-details/TRTW/1160688?gameHash=90aabc5248a84a7f             1
+http://matchhistory.na.leagueoflegends.com/en/#match-details/TRTW/750356?gameHash=f5a608a7138242b8              1
+http://matchhistory.na.leagueoflegends.com/en/#match-details/TRLH1/1001900677?gameHash=e38992c2ca4d9a8a         1
+http://matchhistory.na.leagueoflegends.com/en/#match-details/TRLH1/1001770034?gameHash=8de6f3e698e4d194         1
+                                                                                                               ..
+http://matchhistory.na.leagueoflegends.com/en/#match-details/TRLH3/1001470139?gameHash=9bb9caf3b810a511         1
+http://matchhistory.las.leagueoflegends.com/es/#match-details/ESPORTSTMNT02/230528?gameHash=426a54a0355f3a46    1
+http://matchhistory.na.leagueoflegends.com/en/#match-details/TRKR1/1080361?gameHash=a12b54a736771b8c            1
+http://matchhistory.las.leagueoflegends.com/es/#match-details/ESPORTSTMNT02/240258?gameHash=f58221a6be33d222    1
+http://matchhistory.tr.leagueoflegends.com/tr/#match-details/WMC2TMNT1/140161?gameHash=ce7c817c4180bf60         1
+Name: Address, Length: 7582, dtype: int64
